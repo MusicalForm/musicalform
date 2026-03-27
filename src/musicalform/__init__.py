@@ -1,5 +1,12 @@
 """musicalform: A Python library for representing and validating musical form annotation labels."""
 
+try:
+    from importlib.metadata import version as _get_version
+
+    __version__ = _get_version("musicalform")
+except Exception:
+    __version__ = "0.1.0"  # fallback for development
+
 from musicalform.core import (
     AnnotationLabel,
     FormalFunction,
@@ -31,6 +38,7 @@ from musicalform.enums import (
 )
 
 __all__ = [
+    "__version__",
     # enums
     "FancyStrEnum",
     "SpecificFunctionName",

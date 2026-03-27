@@ -8,11 +8,18 @@ from __future__ import annotations
 
 import argparse
 
+from musicalform import __version__
+
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="musicalform",
         description="musicalform: tools for LCMA musical form annotation.",
+    )
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"%(prog)s {__version__}",
     )
     subparsers = parser.add_subparsers(dest="subcommand", metavar="SUBCOMMAND")
     subparsers.required = True
