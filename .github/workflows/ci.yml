@@ -1,0 +1,30 @@
+name: Run tests
+
+on:
+  push:
+    branches:
+      - development
+  pull_request:
+    branches:
+      - development
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install tox
+        run: pip install tox tox-uv
+      - name: Run tests with tox
+        # Runs tests for the specific Python version using the test matrix defined in tox.ini
+        run: tox -e py${{ matrix.python-version == '3.11' && 'py311' || 'py312' }} -- --cov --cov-report=term-missing

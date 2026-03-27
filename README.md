@@ -46,6 +46,8 @@ musicalform validate -e "bi" -v
 
 ## Development
 
+### Getting Started
+
 ```bash
 git clone <repo-url>
 cd musicalform
@@ -55,20 +57,65 @@ pip install -e ".[dev]"
 
 # Install pre-commit hooks
 pre-commit install
+```
 
-# Run tests
+### Running Tests and Checks
+
+```bash
+# Run tests for all supported Python versions
+tox
+
+# Run tests for a specific Python version
 tox -e py311
-# or
+tox -e py312
+
+# Or use pytest directly
 pytest
 
 # Run linters
 tox -e lint
 
-# Auto-format code
-tox -e format
+# Run type checking
+tox -e typecheck
+```
 
-# Build package
+### Workflow
+
+All pull requests should target the **`development`** branch. Commits follow [conventional commit](https://www.conventionalcommits.org/) format, which enables semantic versioning:
+
+| Commit Message | Version Bump | Emoji |
+|---|---|---|
+| `feat: add new feature` | Minor (0.x.0) | ✨ |
+| `fix: resolve issue` | Patch (0.0.x) | 🐛 |
+| `BREAKING CHANGE: description` | Major (x.0.0) | ⚠️ |
+| `docs: update documentation` | No release | 📚 |
+| `refactor: reorganize code` | No release | ♻️ |
+| `test: add tests` | No release | ✅ |
+| `perf: improve performance` | No release | ⚡ |
+| `chore: maintenance tasks` | No release | 🔧 |
+
+### Release Process
+
+When commits are pushed to `development`, [Release Please](https://github.com/googleapis/release-please) automatically:
+
+1. Analyzes conventional commit messages
+2. Creates a PR with bumped version in `pyproject.toml` and updated `CHANGELOG.md`
+3. When merged, creates a GitHub Release
+
+To publish to PyPI after a release is created:
+
+```bash
+# Build the package
 tox -e build
+
+# Publish to PyPI (requires TWINE_API_TOKEN in environment)
+tox -e publish
+```
+
+Check your version at any time with:
+
+```bash
+musicalform --version
 ```
 
 ---
