@@ -1,0 +1,35 @@
+name: Run tests
+
+on:
+  push:
+    branches:
+      - development
+  pull_request:
+    branches:
+      - development
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install tox
+        run: pip install tox tox-uv
+      - name: Run tests with tox
+        # Runs the test environment matching the current Python version
+        run: |
+          if [ "${{ matrix.python-version }}" = "3.11" ]; then
+            tox -e py311
+          else
+            tox -e py312
+          fi
