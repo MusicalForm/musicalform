@@ -1,0 +1,59 @@
+[build-system]
+requires = ["uv_build>=0.7"]
+build-backend = "uv_build"
+
+[project]
+name = "musicalform"
+version = "0.1.0"
+description = "A Python library for representing and validating musical form annotation labels."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+keywords = ["music", "music theory", "musical form", "annotation", "musicology"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "DHParser>=1.8.3",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+    "tox>=4.0",
+    "tox-uv>=1.0",
+    "pre-commit",
+    "autoflake>=2.0",
+    "black>=24.0",
+    "isort>=5.13",
+    "flake8>=7.0",
+    "flake8-bugbear",
+    "mypy>=1.0",
+]
+
+[project.scripts]
+musicalform = "musicalform.cli.main:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
+exclude = 'lcma_standardParser\.py'
+
+[tool.isort]
+profile = "black"
+line_length = 120
+extend_skip = ["lcma_standardParser.py"]

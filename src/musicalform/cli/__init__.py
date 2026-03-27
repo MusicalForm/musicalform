@@ -1,0 +1,1 @@
+"""CLI package for musicalform."""
