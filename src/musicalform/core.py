@@ -19,7 +19,12 @@ from musicalform.enums import (
     SubType,
     UnitName,
 )
-from musicalform.utils import check_for_unhandled_keys, compact_repr, concatenate_regex_results
+from musicalform.utils import (
+    check_for_unhandled_keys,
+    compact_repr,
+    concatenate_regex_results,
+    parse_expression_as_dict,
+)
 
 # ---------------------------------------------------------------------------
 # Abstract base classes
@@ -317,6 +322,11 @@ class FormLabel(ReferencingLabel):
 class AnnotationLabel:
     name: Optional[str]
     form_labels: List[FormLabel] = field(default_factory=list)
+
+    @classmethod
+    def from_string(cls, label: str) -> Self:
+        tree_dict = parse_expression_as_dict(label)
+        return cls.from_parse(tree_dict)
 
     @classmethod
     def from_parse(cls, parse: dict) -> Self:
