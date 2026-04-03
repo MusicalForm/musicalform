@@ -359,6 +359,13 @@ class AnnotationLabel:
                         warn(f"Encountered unknown thing: {thing!r}", UserWarning)
         return cls(name=name, form_labels=labels)
 
+    def get_form_label(self, index: int = 0):
+        """Get the form label for the given index"""
+        return self.form_labels[index]
+
+    def __getitem__(self, item):
+        return self.get_form_label(item)
+
 
 # ---------------------------------------------------------------------------
 # Internal parsing helpers (module-private)
