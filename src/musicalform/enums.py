@@ -70,6 +70,14 @@ class FancyStrEnum(StrEnum):
             str_components.append(f"{name} ({abbrev_str})")
         return ", ".join(str_components)
 
+    @property
+    def alias(self) -> str:
+        names = sorted(
+            (alias for alias, name in self.__class__.__members__.items() if name == self.name),
+            key=lambda x: len(x),  # shortest first
+        )
+        return names[0]
+
     def __repr__(self) -> str:
         return self.name
 
@@ -274,6 +282,27 @@ class MaterialOperator(FancyStrEnum):
             return symbol_map[value]
         return super()._missing_(value)
 
+    @property
+    def alias(self) -> str:
+        cls = self.__class__
+        symbol_map = {
+            cls.adaptation: "°",
+            cls.augmentation: "$aug",
+            cls.combination: "&",
+            cls.concatenation: ",",
+            cls.diminution: "$dim",
+            cls.extension: "+",
+            cls.interpolation: "**",
+            cls.inversion: "$inv",
+            cls.ornamentation: "~",
+            cls.partial: "*",
+            cls.retrograde: "$retr",
+            cls.repetition: "!",
+            cls.transposition: "^",
+            cls.variation: "$var",
+        }
+        return symbol_map.get(self, self.name)
+
 
 class PlaceholderName(FancyStrEnum):
     repeat = auto()
@@ -295,6 +324,12 @@ class PlaceholderName(FancyStrEnum):
         if isinstance(value, str) and value in symbol_map:
             return symbol_map[value]
         return super()._missing_(value)
+
+    @property
+    def alias(self) -> str:
+        cls = self.__class__
+        symbol_map = {cls.repeat: "%"}
+        return symbol_map.get(self, self.name)
 
 
 class CertaintyName(FancyStrEnum):
