@@ -337,7 +337,7 @@ class AnnotationLabel:
         name = None
         labels = []
         if "Name" in label:
-            name = _parse_name(label["Name"])
+            name = _parse_name(label.pop("Name"))
         if isinstance(label, dict):
             if "PlaceholderLabel" in label:
                 labels.append(PlaceholderLabel.from_parse(label.pop("PlaceholderLabel")))

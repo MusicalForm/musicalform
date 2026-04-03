@@ -108,7 +108,7 @@ def check_for_unhandled_keys(dct: dict, ignore_keys=(":Text", ":Whitespace")):
         ignore_keys = set()
     keys = ", ".join(repr(key) for key in dct.keys() if key not in ignore_keys)
     if keys:
-        warn(f"Encountered unhandled keys: {keys!r}", UserWarning)
+        warn(f"Encountered unhandled keys: {keys!r}\n\t{dct}", UserWarning)
 
 
 def parse_expression(exp: str, remove_whitespace: bool = True):
