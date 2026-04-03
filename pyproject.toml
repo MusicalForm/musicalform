@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "musicalform"
-version = "0.1.0"
+version = "0.2.0"
 description = "A Python library for representing and validating musical form annotation labels."
 readme = "README.md"
 license = { file = "LICENSE" }
