@@ -17,10 +17,11 @@ import pandas as pd
 from DHParser import RootNode
 
 # NOTE: lcma_standardParser.py lives alongside this file in the cli/ package.
-from musicalform.cli.lcma_standardParser import compile_snippet, compile_src
+from musicalform.cli.lcma_standardParser import compile_src
 
 # All domain objects come from the musicalform library.
 from musicalform.core import AnnotationLabel
+from musicalform.utils import parse_expression_as_dict
 
 VERBOSE = False
 
@@ -47,21 +48,8 @@ def parse_file(file):
     return result
 
 
-def parse_expression(exp: str, remove_whitespace: bool = True):
-    if remove_whitespace:
-        exp = exp.replace(" ", "")
-    T: Tuple[RootNode, list] = compile_snippet(exp)
-    result, errors = T
-    return result
-
-
 def parse_file_as(file, format):
     result = parse_file(file)
-    return result.serialize(format)
-
-
-def parse_expression_as(exp, format):
-    result = parse_expression(exp)
     return result.serialize(format)
 
 
@@ -71,18 +59,12 @@ def parse_file_as_dict(file) -> dict:
     return tree
 
 
-def parse_expression_as_dict(exp: str) -> dict:
-    json_str = parse_expression_as(exp, "jsondict")
-    tree = json.loads(json_str)
-    return tree
-
-
-def parse_file_as_objects(file="test_symbol"):
+def parse_file_as_objects(file="test_symbol") -> AnnotationLabel:
     tree_dict = parse_file_as_dict(file)
     return parse_tree(tree_dict)
 
 
-def parse_expression_as_objects(exp: str):
+def parse_expression_as_objects(exp: str) -> AnnotationLabel:
     tree_dict = parse_expression_as_dict(exp)
     return parse_tree(tree_dict)
 

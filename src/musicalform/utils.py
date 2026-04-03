@@ -2,8 +2,14 @@
 
 from __future__ import annotations
 
+import json
 from dataclasses import fields
+from typing import Tuple
 from warnings import warn
+
+from DHParser import RootNode
+
+from musicalform.cli.lcma_standardParser import compile_snippet
 
 
 def compact_repr(_cls=None, *, filter_none=True, filter_false=True, **kwargs):
@@ -103,3 +109,22 @@ def check_for_unhandled_keys(dct: dict, ignore_keys=(":Text", ":Whitespace")):
     keys = ", ".join(repr(key) for key in dct.keys() if key not in ignore_keys)
     if keys:
         warn(f"Encountered unhandled keys: {keys!r}", UserWarning)
+
+
+def parse_expression(exp: str, remove_whitespace: bool = True):
+    if remove_whitespace:
+        exp = exp.replace(" ", "")
+    T: Tuple[RootNode, list] = compile_snippet(exp)
+    result, errors = T
+    return result
+
+
+def parse_expression_as(exp, format):
+    result = parse_expression(exp)
+    return result.serialize(format)
+
+
+def parse_expression_as_dict(exp: str) -> dict:
+    json_str = parse_expression_as(exp, "jsondict")
+    tree = json.loads(json_str)
+    return tree
