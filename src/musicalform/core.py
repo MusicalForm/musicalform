@@ -37,9 +37,22 @@ class FormalFunction(ABC):
     def specificity(self) -> FunctionSpecificity:
         raise NotImplementedError
 
+    @abstractmethod
+    def to_label(self, abbreviate: bool = True) -> str:
+        raise NotImplementedError
+
+    def __str__(self):
+        return self.to_label(abbreviate=True)
+
 
 class References(ABC):
-    pass
+
+    @abstractmethod
+    def to_label(self, abbreviate: bool = True) -> str:
+        raise NotImplementedError
+
+    def __str__(self):
+        return self.to_label(abbreviate=True)
 
 
 class ReferencingLabel(ABC):  # noqa: B024
@@ -62,6 +75,13 @@ class ReferencingLabel(ABC):  # noqa: B024
             transformational=transformational,
         )
         return cls(**kwargs, material=material_refs)
+
+    @abstractmethod
+    def to_label(self, abbreviate: bool = True, omit_references: bool = False) -> str:
+        raise NotImplementedError
+
+    def __str__(self):
+        return self.to_label(abbreviate=True)
 
 
 # ---------------------------------------------------------------------------
@@ -101,6 +121,14 @@ class SingleFunction(FormalFunction):
         else:
             raise ValueError(f"Name must be either SpecificFunctionName or UnitName. Got {name!r} of type {type(name)}")
 
+    def to_label(self, abbreviate: bool = True) -> str:
+        label = self.name.alias if abbreviate else self.name.name
+        if self.notional:
+            label = f'"{label}"'
+        if self.crossing_rightward:
+            label = label + " /"
+        return label
+
 
 @compact_repr
 @dataclass
@@ -124,6 +152,13 @@ class GenericFunction(SingleFunction):
     def specificity(self) -> FunctionSpecificity:
         return FunctionSpecificity.generic
 
+    def to_label(self, abbreviate: bool = True) -> str:
+        label = super().to_label(abbreviate=abbreviate)
+        if self.cardinality is None:
+            return label
+        card = {1: "st", 2: "nd", 3: "rd"}.get(self.cardinality, "th")
+        return f"{self.cardinality}{card} {label}"
+
 
 @dataclass
 class FunctionalTransformation(FormalFunction):
@@ -133,6 +168,9 @@ class FunctionalTransformation(FormalFunction):
     @property
     def specificity(self) -> Tuple[FunctionSpecificity, FunctionSpecificity]:
         return self.source.specificity, self.target.specificity
+
+    def to_label(self, abbreviate: bool = True) -> str:
+        return f"{self.source.to_label(abbreviate=abbreviate)} > " f"{self.target.to_label(abbreviate=abbreviate)}"
 
 
 # ---------------------------------------------------------------------------
@@ -171,12 +209,17 @@ class FormalType:
                     )
         return cls(main_type=main, sub_type=sub, notional=True)
 
-    def __repr__(self) -> str:
-        repr = f"FormalType({self.main_type}"
+    def to_label(self, abbreviate: bool = True) -> str:
+        label = self.main_type.alias if abbreviate else self.main_type.name
         if self.sub_type:
-            repr += f".{self.sub_type}"
-        repr += ")"
-        return repr
+            sub_type = self.sub_type.alias if abbreviate else self.sub_type.name
+            label += f".{sub_type}"
+        if self.notional:
+            return f'"{label}"'
+        return label
+
+    def __str__(self):
+        return self.to_label(abbreviate=True)
 
 
 # ---------------------------------------------------------------------------
@@ -186,7 +229,7 @@ class FormalType:
 
 @dataclass
 class SingleReference(References):
-    reference: Optional[str | ReferenceSentinel] = None
+    reference: str | ReferenceSentinel
     operators: Set[MaterialOperator] = field(default_factory=set)
 
     @classmethod
@@ -197,6 +240,12 @@ class SingleReference(References):
         operator_chars = parse.pop("MaterialOperators", [])
         operators = _parse_material_operator_chars(operator_chars)
         return cls(reference=name, operators=operators)
+
+    def to_label(self, abbreviate: bool = True) -> str:
+        ref = self.reference
+        if abbreviate and ref is ReferenceSentinel.previous:
+            ref = "_"
+        return ref + "".join(op.alias if abbreviate else op.name for op in self.operators)
 
 
 @compact_repr
@@ -227,6 +276,12 @@ class MaterialReferences(References):
                         UserWarning,
                     )
         return None
+
+    def to_label(self, abbreviate: bool = True) -> str:
+        refs = "".join(ref.to_label(abbreviate=abbreviate) for ref in self.references)
+        if self.unordered:
+            return f"({refs})"
+        return refs
 
 
 @dataclass
@@ -263,6 +318,14 @@ class TransformationalReferences(References):
                     )
         return None
 
+    def to_label(self, abbreviate: bool = True) -> str:
+        source = "" if self.source_references is None else self.source_references.to_label(abbreviate=abbreviate)
+        target = "" if self.target_references is None else self.target_references.to_label(abbreviate=abbreviate)
+        if not (source or target):
+            return ""
+        return f"{source},{target}"  # for transformation, the comma needs to be present in order
+        # to attribute the reference correctly
+
 
 # ---------------------------------------------------------------------------
 # Labels
@@ -291,6 +354,12 @@ class PlaceholderLabel(ReferencingLabel):
             )
         return cls(name)
 
+    def to_label(self, abbreviate: bool = True, omit_references: bool = False) -> str:
+        label = self.name.alias if abbreviate else self.name.name
+        if not omit_references and self.material is not None:
+            label += f" [{self.material.to_label(abbreviate=abbreviate)}]"
+        return label
+
 
 @compact_repr(certainty=CertaintyName.default)
 @dataclass
@@ -302,12 +371,13 @@ class FormLabel(ReferencingLabel):
 
     @classmethod
     def from_parse(cls, parse: dict):
-        form_dict = parse["Form"]
+        form_dict = parse.pop("Form")
         function, shorthand = _parse_function_label(form_dict.pop("FunctionLabel"))
         certainty = CertaintyName(form_dict.pop("Certainty", CertaintyName.default))
         formal_type = FormalType.from_parse(form_dict.pop("TypeExp", None))
-        material_references = parse.pop("MaterialBrackets", None)
         check_for_unhandled_keys(form_dict)
+        material_references = parse.pop("MaterialBrackets", None)
+        check_for_unhandled_keys(parse)
         return super().from_parse(
             material_references=material_references,
             shorthand=shorthand,
@@ -316,6 +386,17 @@ class FormLabel(ReferencingLabel):
             type=formal_type,
             certainty=certainty,
         )
+
+    def to_label(self, abbreviate: bool = True, omit_references: bool = False) -> str:
+        label = self.function.to_label(abbreviate=abbreviate)
+        if self.type is not None:
+            label += f"|{self.type.to_label(abbreviate=abbreviate)}"
+        if not omit_references and self.material is not None:
+            label += f" [{self.material.to_label(abbreviate=abbreviate)}]"
+        return label
+
+    def __str__(self):
+        return self.to_label(abbreviate=True)
 
 
 @dataclass
@@ -365,6 +446,17 @@ class AnnotationLabel:
 
     def __getitem__(self, item):
         return self.get_form_label(item)
+
+    def __iter__(self):
+        return iter(self.form_labels)
+
+    def to_label(self, abbreviate: bool = True) -> str:
+        label = f"{self.name}: " if self.name else ""
+        label += "-".join(form_label.to_label(abbreviate=abbreviate) for form_label in self)
+        return label
+
+    def __str__(self):
+        return self.to_label(abbreviate=True)
 
 
 # ---------------------------------------------------------------------------
