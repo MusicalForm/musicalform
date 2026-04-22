@@ -144,9 +144,9 @@ class SpecificFunctionName(FancyStrEnum):
     pre_chorus = auto()
     pc = pre_chorus
     chorus = auto()
-    ch = chorus()
+    ch = chorus
     bridge = auto()
-    br = bridge()
+    br = bridge
     outro = auto()
     link = auto()
     cycle = auto()
