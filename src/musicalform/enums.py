@@ -103,10 +103,6 @@ class SpecificFunctionName(FancyStrEnum):
     cont = continuation
     development_section = auto()
     dev = development_section
-    essential_expositional_closure = auto()
-    eec = essential_expositional_closure
-    essential_sonata_closure = auto()
-    esc = essential_sonata_closure
     exposition = auto()
     exp = exposition
     fragmentation = auto()
