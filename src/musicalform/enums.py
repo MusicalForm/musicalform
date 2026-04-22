@@ -101,6 +101,8 @@ class SpecificFunctionName(FancyStrEnum):
     conti = continuation_idea
     continuation = continuation_idea
     cont = continuation
+    contrasting_middle = auto()
+    cm = contrasting_middle
     development_section = auto()
     dev = development_section
     exposition = auto()
@@ -137,7 +139,6 @@ class SpecificFunctionName(FancyStrEnum):
     seq = sequence
     transition = auto()
     tr = transition
-
 
 class UnitName(FancyStrEnum):
     unit = auto()
