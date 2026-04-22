@@ -171,6 +171,8 @@ class MainType(FancyStrEnum):
     hyb3 = hybrid3
     hybrid4 = auto()
     hyb4 = hybrid4
+    model_sequence = auto()
+    modseq = model_sequence
     period = auto()
     pd = period
     # repeated_movement
