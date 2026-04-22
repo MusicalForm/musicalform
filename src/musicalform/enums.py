@@ -125,8 +125,8 @@ class SpecificFunctionName(FancyStrEnum):
     pt = primary_theme
     recapitulation = auto()
     recap = recapitulation
-    ritornello = auto()
-    rit = ritornello
+    #ritornello = auto()
+    #rit = ritornello
     retransition = auto()
     rtr = retransition
     secondary_theme_zone = auto()
@@ -183,8 +183,8 @@ class MainType(FancyStrEnum):
     repeated_phrase = auto()
     repeated_subphrase = auto()
     repeated_idea = auto()
-    ritornello_form = auto()
-    ritornello = ritornello_form
+    #ritornello_form = auto()
+    #ritornello = ritornello_form
     rondo_form = auto()
     rondo = rondo_form
     sentence = auto()
