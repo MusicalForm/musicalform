@@ -139,6 +139,20 @@ class SpecificFunctionName(FancyStrEnum):
     seq = sequence
     transition = auto()
     tr = transition
+    verse = auto()   # Pop-Rock Terms from here
+    v = verse
+    pre_chorus = auto()
+    pc = pre_chorus
+    chorus = auto()
+    ch = chorus()
+    bridge = auto()
+    br = bridge()
+    outro = auto()
+    link = auto()
+    cycle = auto()
+    cyc = cycle
+    terminal_climax = auto()
+    riff = auto()
 
 class UnitName(FancyStrEnum):
     unit = auto()
