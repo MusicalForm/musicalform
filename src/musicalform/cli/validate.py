@@ -21,6 +21,7 @@ from musicalform.cli.lcma_standardParser import compile_src
 
 # All domain objects come from the musicalform library.
 from musicalform.core import AnnotationLabel
+from musicalform.tilia import is_valid_tilia_json, iter_timeline_components
 from musicalform.utils import parse_expression_as_dict
 
 VERBOSE = False
@@ -116,10 +117,7 @@ def parse_csv_file(csv_file: str):
 
 def is_valid_json_format(data: dict) -> bool:
     """Check if a JSON dict has 'timelines' as its first top-level key."""
-    if not isinstance(data, dict):
-        return False
-    first_key = next(iter(data), None)
-    return first_key == "timelines"
+    return is_valid_tilia_json(data)
 
 
 def json_to_dataframe(json_path: str | Path) -> Optional[pd.DataFrame]:
@@ -129,34 +127,12 @@ def json_to_dataframe(json_path: str | Path) -> Optional[pd.DataFrame]:
     <component properties>, <timeline properties>, <media_metadata properties>.
     Returns None if the file doesn't have the expected format or no HIERARCHY_TIMELINEs.
     """
-    json_path = Path(json_path)
-    with open(json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    if not is_valid_json_format(data):
-        return None
-
-    media_metadata = data.get("media_metadata", {})
-    hierarchy_timelines = [tl for tl in data.get("timelines", []) if tl.get("kind") == "HIERARCHY_TIMELINE"]
-
-    if not hierarchy_timelines:
-        return None
-
     all_frames = []
-    for tl in hierarchy_timelines:
-        components = tl.get("components", [])
-        if not components:
-            continue
-
-        df_components = pd.json_normalize(components)
-
-        tl_props = {k: v for k, v in tl.items() if k != "components"}
+    for tl_props, media_metadata, df_components in iter_timeline_components(json_path, kinds=["HIERARCHY_TIMELINE"]):
         for key, val in tl_props.items():
             df_components[f"timeline.{key}"] = val
-
         for key, val in media_metadata.items():
             df_components[f"media_metadata.{key}"] = val
-
         all_frames.append(df_components)
 
     if not all_frames:
