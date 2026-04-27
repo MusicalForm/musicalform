@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/MusicalForm/musicalform/compare/v0.2.0...v0.3.0) (2026-04-27)
+
+
+### Features
+
+* adds "musicalform convert" command by integrating functionality from the tilia_warp.py script ([848583b](https://github.com/MusicalForm/musicalform/commit/848583be9f6c2e457c6a6527771e58c871acc4e0))
+
 ## [0.2.0](https://github.com/MusicalForm/musicalform/compare/v0.1.0...v0.2.0) (2026-04-03)
 
 
