@@ -109,12 +109,10 @@ class SpecificFunctionName(FancyStrEnum):
     conti = continuation_idea
     continuation = continuation_idea
     cont = continuation
+    contrasting_middle = auto()
+    cm = contrasting_middle
     development_section = auto()
     dev = development_section
-    essential_expositional_closure = auto()
-    eec = essential_expositional_closure
-    essential_sonata_closure = auto()
-    esc = essential_sonata_closure
     exposition = auto()
     exp = exposition
     fragmentation = auto()
@@ -137,8 +135,8 @@ class SpecificFunctionName(FancyStrEnum):
     pt = primary_theme
     recapitulation = auto()
     recap = recapitulation
-    ritornello = auto()
-    rit = ritornello
+    #ritornello = auto()
+    #rit = ritornello
     retransition = auto()
     rtr = retransition
     secondary_theme_zone = auto()
@@ -149,7 +147,20 @@ class SpecificFunctionName(FancyStrEnum):
     seq = sequence
     transition = auto()
     tr = transition
-
+    verse = auto()   # Pop-Rock Terms from here
+    v = verse
+    pre_chorus = auto()
+    pc = pre_chorus
+    chorus = auto()
+    ch = chorus
+    bridge = auto()
+    br = bridge
+    outro = auto()
+    link = auto()
+    cycle = auto()
+    cyc = cycle
+    terminal_climax = auto()
+    riff = auto()
 
 class UnitName(FancyStrEnum):
     unit = auto()
@@ -183,6 +194,8 @@ class MainType(FancyStrEnum):
     hyb3 = hybrid3
     hybrid4 = auto()
     hyb4 = hybrid4
+    model_sequence = auto()
+    modseq = model_sequence
     period = auto()
     pd = period
     # repeated_movement
@@ -193,8 +206,8 @@ class MainType(FancyStrEnum):
     repeated_phrase = auto()
     repeated_subphrase = auto()
     repeated_idea = auto()
-    ritornello_form = auto()
-    ritornello = ritornello_form
+    #ritornello_form = auto()
+    #ritornello = ritornello_form
     rondo_form = auto()
     rondo = rondo_form
     sentence = auto()
