@@ -1,0 +1,4918 @@
+{
+  "timelines": [
+    {
+      "kind": "HIERARCHY_TIMELINE",
+      "name": "Form",
+      "height": 185,
+      "is_visible": true,
+      "ordinal": 2,
+      "components": [
+        {
+          "start": 0.12948828582248012,
+          "pre_start": 0.12948828582248012,
+          "end": 3.37302479338842,
+          "post_end": 3.37302479338842,
+          "level": 1,
+          "label": "bi",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 3.2435365075659397,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 3.37302479338842,
+          "pre_start": 3.37302479338842,
+          "end": 6.4147703659976205,
+          "post_end": 6.4147703659976205,
+          "level": 1,
+          "label": "ci",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 3.0417455726092006,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 6.4147703659976205,
+          "pre_start": 6.4147703659976205,
+          "end": 9.215585596221933,
+          "post_end": 9.215585596221933,
+          "level": 1,
+          "label": "bi",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 2.8008152302243126,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 9.215585596221933,
+          "pre_start": 9.215585596221933,
+          "end": 12.323200075724523,
+          "post_end": 12.323200075724523,
+          "level": 1,
+          "label": "ci",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 3.1076144795025904,
+          "length_in_measures": [
+            -6,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.484546044864157,
+          "pre_start": 24.484546044864157,
+          "end": 27.34559386068469,
+          "post_end": 27.34559386068469,
+          "level": 1,
+          "label": "mod [m. 3, m. 2]",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 2.861047815820534,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 27.34559386068469,
+          "pre_start": 27.34559386068469,
+          "end": 30.357223140495783,
+          "post_end": 30.357223140495783,
+          "level": 1,
+          "label": "seq",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 3.0116292798110926,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0.12948828582248012,
+          "pre_start": 0.12948828582248012,
+          "end": 6.4147703659976205,
+          "post_end": 6.4147703659976205,
+          "level": 2,
+          "label": "ant",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 6.285282080175141,
+          "length_in_measures": [
+            4,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 6.4147703659976205,
+          "pre_start": 6.4147703659976205,
+          "end": 12.323200075724523,
+          "post_end": 12.323200075724523,
+          "level": 2,
+          "label": "cons",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 5.908429709726903,
+          "length_in_measures": [
+            -4,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.484546044864157,
+          "pre_start": 24.484546044864157,
+          "end": 30.357223140495783,
+          "post_end": 30.357223140495783,
+          "level": 2,
+          "label": "sequence",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 5.8726770956316265,
+          "length_in_measures": [
+            4,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 30.357223140495783,
+          "pre_start": 30.357223140495783,
+          "end": 36.47083057851229,
+          "post_end": 36.47083057851229,
+          "level": 2,
+          "label": "cad",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 1,
+          "length": 6.113607438016508,
+          "length_in_measures": [
+            -4,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0.12948828582248012,
+          "pre_start": 0.12948828582248012,
+          "end": 12.323200075724523,
+          "post_end": 12.323200075724523,
+          "level": 3,
+          "label": "theme|pd",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 12.193711789902043,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 12.323200075724523,
+          "pre_start": 12.323200075724523,
+          "end": 24.484546044864157,
+          "post_end": 24.484546044864157,
+          "level": 3,
+          "label": "%",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 1,
+          "length": 12.161345969139633,
+          "length_in_measures": [
+            8,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.484546044864157,
+          "pre_start": 24.484546044864157,
+          "end": 36.47083057851229,
+          "post_end": 36.47083057851229,
+          "level": 3,
+          "label": "unit",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 1,
+          "length": 11.986284533648135,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 36.47083057851229,
+          "pre_start": 36.47083057851229,
+          "end": 50.96505294797235,
+          "post_end": 50.96505294797235,
+          "level": 3,
+          "label": "%",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 14.494222369460061,
+          "length_in_measures": [
+            7,
+            1
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0.12948828582248012,
+          "pre_start": 0.12948828582248012,
+          "end": 24.484546044864157,
+          "post_end": 24.484546044864157,
+          "level": 4,
+          "label": "1st section|repeated_section",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 1,
+          "length": 24.355057759041678,
+          "length_in_measures": [
+            8,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.484546044864157,
+          "pre_start": 24.484546044864157,
+          "end": 50.96505294797235,
+          "post_end": 50.96505294797235,
+          "level": 4,
+          "label": "2nd section|repeated_section",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 26.480506903108196,
+          "length_in_measures": [
+            7,
+            1
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0.12948828582248012,
+          "pre_start": 0.12948828582248012,
+          "end": 50.96505294797235,
+          "post_end": 50.96505294797235,
+          "level": 5,
+          "label": "dance|simple_binary.balanced",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 50.83556466214987,
+          "length_in_measures": [
+            15,
+            1
+          ],
+          "kind": "HIERARCHY"
+        }
+      ]
+    },
+    {
+      "kind": "BEAT_TIMELINE",
+      "beat_pattern": [
+        3
+      ],
+      "measure_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "beats_in_measure": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "measures_to_force_display": [
+        8,
+        24
+      ],
+      "height": 35,
+      "is_visible": true,
+      "name": "Beats",
+      "ordinal": 4,
+      "components": [
+        {
+          "time": 0.313,
+          "measure": 1,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 0.862,
+          "measure": 1,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 1.41,
+          "measure": 1,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 1.906,
+          "measure": 2,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 2.377,
+          "measure": 2,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 2.925,
+          "measure": 2,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 3.369,
+          "measure": 3,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 3.918,
+          "measure": 3,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 4.466,
+          "measure": 3,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 4.911,
+          "measure": 4,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 5.407,
+          "measure": 4,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 5.851,
+          "measure": 4,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 6.426,
+          "measure": 5,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 6.87,
+          "measure": 5,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 7.418,
+          "measure": 5,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 7.862,
+          "measure": 6,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 8.312096812278606,
+          "measure": 6,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 8.824073789846492,
+          "measure": 6,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 9.245701889020044,
+          "measure": 7,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 9.926,
+          "measure": 7,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 10.37,
+          "measure": 7,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 10.871981700118033,
+          "measure": 8,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 11.363,
+          "measure": 8,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 11.911,
+          "measure": 8,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 12.408,
+          "measure": 1,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 12.956,
+          "measure": 1,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 13.4,
+          "measure": 1,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 13.871,
+          "measure": 2,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 14.419,
+          "measure": 2,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 14.968,
+          "measure": 2,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 15.412,
+          "measure": 3,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 15.804,
+          "measure": 3,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 16.352,
+          "measure": 3,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 16.901,
+          "measure": 4,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 17.371,
+          "measure": 4,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 17.92,
+          "measure": 4,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 18.364,
+          "measure": 5,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 18.912,
+          "measure": 5,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 19.304,
+          "measure": 5,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 19.853,
+          "measure": 6,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 20.427,
+          "measure": 6,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 20.871,
+          "measure": 6,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 21.42,
+          "measure": 7,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 21.864,
+          "measure": 7,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 22.413,
+          "measure": 7,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 22.804,
+          "measure": 8,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 23.353,
+          "measure": 8,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 23.902,
+          "measure": 8,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 24.476,
+          "measure": 9,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 24.92,
+          "measure": 9,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 25.364,
+          "measure": 9,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 25.913,
+          "measure": 10,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 26.305,
+          "measure": 10,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 26.853,
+          "measure": 10,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 27.324,
+          "measure": 11,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 27.872,
+          "measure": 11,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 28.316,
+          "measure": 11,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 28.865,
+          "measure": 12,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 29.413,
+          "measure": 12,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 29.805,
+          "measure": 12,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 30.354,
+          "measure": 13,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 30.824,
+          "measure": 13,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 31.373,
+          "measure": 13,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 31.921,
+          "measure": 14,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 32.365,
+          "measure": 14,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 32.757,
+          "measure": 14,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 33.306,
+          "measure": 15,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 33.854,
+          "measure": 15,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 34.324,
+          "measure": 15,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 34.873,
+          "measure": 16,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 35.422,
+          "measure": 16,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 35.866,
+          "measure": 16,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 36.414,
+          "measure": 9,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 36.963,
+          "measure": 9,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 37.40443565525373,
+          "measure": 9,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 37.903,
+          "measure": 10,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 38.373,
+          "measure": 10,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 38.922,
+          "measure": 10,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 39.366,
+          "measure": 11,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 39.915,
+          "measure": 11,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 40.411,
+          "measure": 11,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 40.855,
+          "measure": 12,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 41.404,
+          "measure": 12,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 41.874,
+          "measure": 12,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 42.422,
+          "measure": 13,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 42.866,
+          "measure": 13,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 43.415,
+          "measure": 13,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 43.964,
+          "measure": 14,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 44.355,
+          "measure": 14,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 44.826,
+          "measure": 14,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 45.374,
+          "measure": 15,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 45.923,
+          "measure": 15,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 46.367,
+          "measure": 15,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 46.915,
+          "measure": 16,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 47.464,
+          "measure": 16,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 48.013,
+          "measure": 16,
+          "beat": 2,
+          "kind": "BEAT"
+        }
+      ]
+    },
+    {
+      "kind": "MARKER_TIMELINE",
+      "name": "Cadences",
+      "height": 30,
+      "is_visible": true,
+      "ordinal": 5,
+      "components": [
+        {
+          "time": 5.8456979166666665,
+          "comments": "",
+          "label": "IAC (I)",
+          "measure": 4,
+          "beat": 3,
+          "kind": "MARKER"
+        },
+        {
+          "time": 10.855853466066618,
+          "comments": "",
+          "label": "PAC (I)",
+          "measure": 8,
+          "beat": 1,
+          "kind": "MARKER"
+        },
+        {
+          "time": 34.844550767414304,
+          "comments": "",
+          "label": "PAC (I)",
+          "measure": 16,
+          "beat": 1,
+          "kind": "MARKER"
+        }
+      ]
+    },
+    {
+      "kind": "SCORE_TIMELINE",
+      "height": 1,
+      "is_visible": false,
+      "name": "Score",
+      "ordinal": 6,
+      "components": [
+        {
+          "staff_index": 1,
+          "time": 0.12789289148351649,
+          "fifths": 2,
+          "measure": 1,
+          "beat": 1,
+          "kind": "KEY_SIGNATURE"
+        },
+        {
+          "staff_index": 0,
+          "time": 0.12789289148351649,
+          "fifths": 2,
+          "measure": 1,
+          "beat": 1,
+          "kind": "KEY_SIGNATURE"
+        },
+        {
+          "line_count": 5,
+          "index": 0,
+          "kind": "STAFF"
+        },
+        {
+          "staff_index": 1,
+          "time": 0.12789289148351649,
+          "line_number": 1,
+          "step": 3,
+          "octave": 3,
+          "icon": "clef-bass.svg",
+          "measure": 1,
+          "beat": 1,
+          "kind": "CLEF"
+        },
+        {
+          "staff_index": 0,
+          "time": 0.12789289148351649,
+          "line_number": -1,
+          "step": 4,
+          "octave": 4,
+          "icon": "clef-treble.svg",
+          "measure": 1,
+          "beat": 1,
+          "kind": "CLEF"
+        },
+        {
+          "staff_index": 0,
+          "time": 0.12789289148351649,
+          "numerator": 3,
+          "denominator": 4,
+          "measure": 1,
+          "beat": 1,
+          "kind": "TIME_SIGNATURE"
+        },
+        {
+          "start": 0.12789289148351649,
+          "end": 0.18220357142857144,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 0.05431067994505495,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "staff_index": 1,
+          "time": 0.12789289148351649,
+          "numerator": 3,
+          "denominator": 4,
+          "measure": 1,
+          "beat": 1,
+          "kind": "TIME_SIGNATURE"
+        },
+        {
+          "time": 0.18220357142857144,
+          "measure": 1,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 0.18220357142857144,
+          "end": 0.5310778598214285,
+          "step": 1,
+          "accidental": 1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 0.34887428839285706,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.18220357142857144,
+          "end": 0.7974060730935731,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 2,
+          "length": 0.6152025016650017,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.5314270833333333,
+          "end": 1.0628541666666667,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 2,
+          "length": 0.5314270833333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.5314270833333333,
+          "end": 1.0628541666666667,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 2,
+          "length": 0.5314270833333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.5314270833333333,
+          "end": 1.0628541666666667,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 2,
+          "length": 0.5314270833333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.7974060730935731,
+          "end": 1.0628541666666667,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 2,
+          "length": 0.2654480935730935,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "line_count": 5,
+          "index": 1,
+          "kind": "STAFF"
+        },
+        {
+          "start": 1.0628541666666667,
+          "end": 1.3277697697697697,
+          "step": 1,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.264915603103103,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.0628541666666667,
+          "end": 1.59428125,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.0628541666666667,
+          "end": 1.59428125,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.0628541666666667,
+          "end": 1.59428125,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.3277697697697697,
+          "end": 1.59428125,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.2665114802302304,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 1.59428125,
+          "measure": 1,
+          "beat": 3,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 1.59428125,
+          "end": 2.12517690625,
+          "step": 2,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.53089565625,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.59428125,
+          "end": 2.391687323093573,
+          "step": 5,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.7974060730935728,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.1257083333333333,
+          "end": 2.6571354166666667,
+          "step": 4,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.1257083333333333,
+          "end": 2.6571354166666667,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.1257083333333333,
+          "end": 2.6571354166666667,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.391687323093573,
+          "end": 2.6571354166666667,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.26544809357309385,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.6571354166666667,
+          "end": 2.9220510197697704,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.2649156031031037,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.6571354166666667,
+          "end": 3.1885625,
+          "step": 4,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.6571354166666667,
+          "end": 3.1885625,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.6571354166666667,
+          "end": 3.1885625,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.5314270833333334,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.9220510197697704,
+          "end": 3.1885625,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.26651148023022975,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 3.1885625,
+          "measure": 3,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 3.1885625,
+          "end": 3.45480746875,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.2662449687499997,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.1885625,
+          "end": 3.7194581562500004,
+          "step": 5,
+          "accidental": 0,
+          "octave": 2,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.5308956562500002,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.45480746875,
+          "end": 3.7194581562500004,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.26465068750000054,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.7199895833333336,
+          "end": 3.985968573093573,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.2659789897602396,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.7199895833333336,
+          "end": 4.251416666666667,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.7199895833333336,
+          "end": 4.251416666666667,
+          "step": 0,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.7199895833333336,
+          "end": 4.251416666666667,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.7199895833333336,
+          "end": 4.7828437500000005,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 1.0628541666666669,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.7199895833333336,
+          "end": 4.7828437500000005,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 1.0628541666666669,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.985968573093573,
+          "end": 4.251416666666667,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.2654480935730934,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.251416666666667,
+          "end": 4.51633226976977,
+          "step": 4,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.2649156031031037,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.251416666666667,
+          "end": 4.7828437500000005,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.251416666666667,
+          "end": 4.7828437500000005,
+          "step": 0,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.251416666666667,
+          "end": 4.7828437500000005,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.51633226976977,
+          "end": 4.7828437500000005,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.2665114802302302,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 4.7828437500000005,
+          "measure": 4,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 4.7828437500000005,
+          "end": 5.313739406250001,
+          "step": 1,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.5308956562500002,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.7828437500000005,
+          "end": 5.8456979166666665,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 1.062854166666666,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.7828437500000005,
+          "end": 5.8456979166666665,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 1.062854166666666,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.7828437500000005,
+          "end": 5.8456979166666665,
+          "step": 2,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 1.062854166666666,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.3142708333333335,
+          "end": 5.8456979166666665,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.3142708333333335,
+          "end": 5.8456979166666665,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.3142708333333335,
+          "end": 5.8456979166666665,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.8456979166666665,
+          "end": 6.2446671984484485,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.39896928178178204,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.8456979166666665,
+          "end": 6.2446671984484485,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.39896928178178204,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.8456979166666665,
+          "end": 6.2446671984484485,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.39896928178178204,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.8456979166666665,
+          "end": 6.377125,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.8456979166666665,
+          "end": 6.377125,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.8456979166666665,
+          "end": 6.377125,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.2446671984484485,
+          "end": 6.377125,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.13245780155155185,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.238308689483728,
+          "end": 6.370631618496544,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.13232292901281628,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 6.377125,
+          "measure": 5,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 6.377125,
+          "end": 6.908020656250001,
+          "step": 1,
+          "accidental": 1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.5308956562500002,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.377125,
+          "end": 7.174531073093573,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.7974060730935726,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.908552083333333,
+          "end": 7.439979166666667,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.908552083333333,
+          "end": 7.439979166666667,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.908552083333333,
+          "end": 7.439979166666667,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.174531073093573,
+          "end": 7.439979166666667,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.2654480935730943,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.439979166666667,
+          "end": 7.704894769769771,
+          "step": 1,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.2649156031031037,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.439979166666667,
+          "end": 7.97140625,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.439979166666667,
+          "end": 7.97140625,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.439979166666667,
+          "end": 7.97140625,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.531427083333333,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.704894769769771,
+          "end": 7.97140625,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.2665114802302293,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 7.97140625,
+          "measure": 6,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 7.97140625,
+          "end": 8.50230190625,
+          "step": 2,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.5308956562500002,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.97140625,
+          "end": 8.768812323093574,
+          "step": 5,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.7974060730935735,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.502833333333333,
+          "end": 9.034260416666667,
+          "step": 4,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.502833333333333,
+          "end": 9.034260416666667,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.502833333333333,
+          "end": 9.034260416666667,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.768812323093574,
+          "end": 9.034260416666667,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.2654480935730934,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.034260416666667,
+          "end": 9.29917601976977,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.2649156031031037,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.034260416666667,
+          "end": 9.565687500000001,
+          "step": 4,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.034260416666667,
+          "end": 9.565687500000001,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.034260416666667,
+          "end": 9.565687500000001,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.29917601976977,
+          "end": 9.565687500000001,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.2665114802302302,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 9.565687500000001,
+          "measure": 7,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 9.565687500000001,
+          "end": 9.83193246875,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.2662449687499997,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.565687500000001,
+          "end": 10.096583156250002,
+          "step": 5,
+          "accidental": 0,
+          "octave": 2,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.5308956562500011,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.83193246875,
+          "end": 10.096583156250002,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.2646506875000014,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.097114583333335,
+          "end": 10.363093573093574,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.2659789897602387,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.097114583333335,
+          "end": 10.628541666666667,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.097114583333335,
+          "end": 10.628541666666667,
+          "step": 0,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.097114583333335,
+          "end": 10.628541666666667,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.097114583333335,
+          "end": 11.159968749999999,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 1.0628541666666642,
+          "length_in_measures": [
+            1,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.097114583333335,
+          "end": 11.159968749999999,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 1.0628541666666642,
+          "length_in_measures": [
+            1,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.363093573093574,
+          "end": 10.628541666666667,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 3,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.2654480935730934,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.628541666666667,
+          "end": 10.89345726976977,
+          "step": 4,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.2649156031031037,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.628541666666667,
+          "end": 11.159968749999999,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.628541666666667,
+          "end": 11.159968749999999,
+          "step": 0,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.628541666666667,
+          "end": 11.159968749999999,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.89345726976977,
+          "end": 11.159968749999999,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.2665114802302284,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 11.159968749999999,
+          "measure": 8,
+          "beat": 2,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 11.159968749999999,
+          "end": 11.74076917873793,
+          "step": 1,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.5808004287379305,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.159968749999999,
+          "end": 12.318575544294296,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 1.1586067942942968,
+          "length_in_measures": [
+            -8,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.159968749999999,
+          "end": 12.318575544294296,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 1.1586067942942968,
+          "length_in_measures": [
+            -8,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.74076917873793,
+          "end": 12.318575544294296,
+          "step": 3,
+          "accidental": 1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 0.5778063655563663,
+          "length_in_measures": [
+            -8,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.74076917873793,
+          "end": 12.318575544294296,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 0.5778063655563663,
+          "length_in_measures": [
+            -8,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 12.75425,
+          "measure": 1,
+          "beat": 2,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 12.75425,
+          "end": 13.02049496875,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 2,
+          "length": 0.2662449687499997,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 12.75425,
+          "end": 13.285145656250002,
+          "step": 5,
+          "accidental": 1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.5308956562500011,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.02049496875,
+          "end": 13.285145656250002,
+          "step": 2,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 2,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.2646506875000014,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.285677083333335,
+          "end": 13.551656073093573,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.2659789897602387,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.285677083333335,
+          "end": 13.817104166666667,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.285677083333335,
+          "end": 13.817104166666667,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.285677083333335,
+          "end": 13.817104166666667,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.551656073093573,
+          "end": 13.817104166666667,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.2654480935730934,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.817104166666667,
+          "end": 14.08201976976977,
+          "step": 2,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.2649156031031037,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.817104166666667,
+          "end": 14.34853125,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.817104166666667,
+          "end": 14.34853125,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.817104166666667,
+          "end": 14.34853125,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.08201976976977,
+          "end": 14.34853125,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.2665114802302302,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 14.34853125,
+          "measure": 2,
+          "beat": 2,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 14.34853125,
+          "end": 14.879426906250002,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.5308956562500011,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.34853125,
+          "end": 15.145937323093575,
+          "step": 0,
+          "accidental": 1,
+          "octave": 6,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.7974060730935744,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.879958333333335,
+          "end": 15.411385416666668,
+          "step": 1,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.879958333333335,
+          "end": 15.411385416666668,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.879958333333335,
+          "end": 15.411385416666668,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.145937323093575,
+          "end": 15.411385416666668,
+          "step": 6,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.2654480935730934,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.411385416666668,
+          "end": 15.676301019769772,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.2649156031031037,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.411385416666668,
+          "end": 15.9428125,
+          "step": 1,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.411385416666668,
+          "end": 15.9428125,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.411385416666668,
+          "end": 15.9428125,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.5314270833333321,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.676301019769772,
+          "end": 15.9428125,
+          "step": 1,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 2,
+          "length": 0.2665114802302284,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 15.9428125,
+          "measure": 3,
+          "beat": 2,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 15.9428125,
+          "end": 16.20905746875,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.2662449687499997,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.9428125,
+          "end": 16.473708156249998,
+          "step": 4,
+          "accidental": 1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 2,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.5308956562499976,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.20905746875,
+          "end": 16.473708156249998,
+          "step": 1,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.26465068749999787,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.474239583333333,
+          "end": 16.74021857309357,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.2659789897602387,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.474239583333333,
+          "end": 17.005666666666666,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.474239583333333,
+          "end": 17.005666666666666,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.474239583333333,
+          "end": 17.005666666666666,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.74021857309357,
+          "end": 17.005666666666666,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.2654480935730952,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.005666666666666,
+          "end": 17.270582269769772,
+          "step": 1,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.26491560310310547,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.005666666666666,
+          "end": 17.53709375,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.005666666666666,
+          "end": 17.53709375,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.005666666666666,
+          "end": 17.53709375,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.270582269769772,
+          "end": 17.53709375,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.2665114802302284,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 17.53709375,
+          "measure": 4,
+          "beat": 2,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 17.53709375,
+          "end": 18.06798940625,
+          "step": 4,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.5308956562499993,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.53709375,
+          "end": 18.334499823093573,
+          "step": 6,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.7974060730935726,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.068520833333334,
+          "end": 18.599947916666668,
+          "step": 0,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.068520833333334,
+          "end": 18.599947916666668,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.068520833333334,
+          "end": 18.599947916666668,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.334499823093573,
+          "end": 18.599947916666668,
+          "step": 5,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.2654480935730952,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.599947916666668,
+          "end": 18.864863519769774,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.26491560310310547,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.599947916666668,
+          "end": 19.131375000000002,
+          "step": 0,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.599947916666668,
+          "end": 19.131375000000002,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.599947916666668,
+          "end": 19.131375000000002,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.864863519769774,
+          "end": 19.131375000000002,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.2665114802302284,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 19.131375000000002,
+          "measure": 5,
+          "beat": 3,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 19.131375000000002,
+          "end": 19.397619968750003,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.2662449687500015,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.131375000000002,
+          "end": 19.66227065625,
+          "step": 3,
+          "accidental": 1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.5308956562499993,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.397619968750003,
+          "end": 19.66227065625,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.26465068749999787,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.662802083333336,
+          "end": 19.928781073093575,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.2659789897602387,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.662802083333336,
+          "end": 20.19422916666667,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.662802083333336,
+          "end": 20.19422916666667,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.662802083333336,
+          "end": 20.19422916666667,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.928781073093575,
+          "end": 20.19422916666667,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.2654480935730952,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.19422916666667,
+          "end": 20.45914476976977,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.2649156031031019,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.19422916666667,
+          "end": 20.72565625,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.19422916666667,
+          "end": 20.72565625,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.19422916666667,
+          "end": 20.72565625,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.45914476976977,
+          "end": 20.72565625,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.2665114802302284,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 20.72565625,
+          "measure": 6,
+          "beat": 3,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 20.72565625,
+          "end": 21.25655190625,
+          "step": 1,
+          "accidental": 1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.5308956562499993,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.72565625,
+          "end": 21.523062323093573,
+          "step": 5,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.7974060730935726,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.257083333333334,
+          "end": 21.788510416666668,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.257083333333334,
+          "end": 21.788510416666668,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.257083333333334,
+          "end": 21.788510416666668,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.5314270833333339,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.523062323093573,
+          "end": 21.788510416666668,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.2654480935730952,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.788510416666668,
+          "end": 22.05342601976977,
+          "step": 1,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.2649156031031019,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.788510416666668,
+          "end": 22.319937499999998,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.788510416666668,
+          "end": 22.319937499999998,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.788510416666668,
+          "end": 22.319937499999998,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.05342601976977,
+          "end": 22.319937499999998,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.2665114802302284,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 22.319937499999998,
+          "measure": 7,
+          "beat": 3,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 22.319937499999998,
+          "end": 22.58618246875,
+          "step": 6,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.2662449687500015,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.319937499999998,
+          "end": 22.85083315625,
+          "step": 2,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 3,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.5308956562500029,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.58618246875,
+          "end": 22.85083315625,
+          "step": 1,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 3,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.2646506875000014,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.851364583333336,
+          "end": 23.117343573093574,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.2659789897602387,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.851364583333336,
+          "end": 23.382791666666666,
+          "step": 4,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.851364583333336,
+          "end": 23.382791666666666,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.851364583333336,
+          "end": 23.382791666666666,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.5314270833333303,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.117343573093574,
+          "end": 23.382791666666666,
+          "step": 3,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 2,
+          "length": 0.2654480935730916,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.382791666666666,
+          "end": 23.64770726976977,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.26491560310310547,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.382791666666666,
+          "end": 23.914218750000003,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.5314270833333374,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.382791666666666,
+          "end": 23.914218750000003,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.5314270833333374,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.382791666666666,
+          "end": 23.914218750000003,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.5314270833333374,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.64770726976977,
+          "end": 23.914218750000003,
+          "step": 0,
+          "accidental": 1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.26651148023023197,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 23.914218750000003,
+          "measure": 8,
+          "beat": 3,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 23.914218750000003,
+          "end": 25.072825544294293,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 9,
+          "end_beat": 2,
+          "length": 1.1586067942942897,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.914218750000003,
+          "end": 25.072825544294293,
+          "step": 3,
+          "accidental": 1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 9,
+          "end_beat": 2,
+          "length": 1.1586067942942897,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.914218750000003,
+          "end": 25.072825544294293,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 9,
+          "end_beat": 2,
+          "length": 1.1586067942942897,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 25.5085,
+          "measure": 9,
+          "beat": 3,
+          "kind": "BAR_LINE"
+        }
+      ]
+    }
+  ],
+  "media_metadata": {
+    "title": "Untitled",
+    "notes": "",
+    "composer": "",
+    "tonality": "",
+    "time signature": "",
+    "performer": "",
+    "performance year": "",
+    "arranger": "",
+    "composition year": "",
+    "recording year": "",
+    "form": "",
+    "instrumentation": "",
+    "genre": "",
+    "lyrics": "",
+    "media length": 51.017
+  },
+  "media_path": "C:/Users/koesterma/Downloads/PortableGit/annotation_pilot/recordings/MP3_synth/D790l\u00e4ndler03.mp3"
+}

@@ -1,0 +1,7618 @@
+{
+  "timelines": [
+    {
+      "kind": "BEAT_TIMELINE",
+      "beat_pattern": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "measure_numbers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "beats_in_measure": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "measures_to_force_display": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "height": 35,
+      "is_visible": true,
+      "name": "Measure",
+      "ordinal": 3,
+      "components": [
+        {
+          "time": 0.04,
+          "measure": 0,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 0.54,
+          "measure": 1,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 1.04,
+          "measure": 1,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 1.54,
+          "measure": 1,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 2.06,
+          "measure": 2,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 2.54,
+          "measure": 2,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 3.06,
+          "measure": 2,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 3.54,
+          "measure": 3,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 4.04,
+          "measure": 3,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 4.54,
+          "measure": 3,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 5.08,
+          "measure": 4,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 5.56,
+          "measure": 4,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 6.06,
+          "measure": 4,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 6.56,
+          "measure": 5,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 7.04,
+          "measure": 5,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 7.539999999999999,
+          "measure": 5,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 8.04,
+          "measure": 6,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 8.56,
+          "measure": 6,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 9.05,
+          "measure": 6,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 9.54,
+          "measure": 7,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 9.96,
+          "measure": 7,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 10.5,
+          "measure": 7,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 11.04,
+          "measure": 8,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 11.54,
+          "measure": 8,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 12.04,
+          "measure": 8,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 12.54,
+          "measure": 1,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 13.03,
+          "measure": 1,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 13.52,
+          "measure": 1,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 14.06,
+          "measure": 2,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 14.54,
+          "measure": 2,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 15.06,
+          "measure": 2,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 15.54,
+          "measure": 3,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 16.03,
+          "measure": 3,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 16.52,
+          "measure": 3,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 17.08,
+          "measure": 4,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 17.56,
+          "measure": 4,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 18.06,
+          "measure": 4,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 18.56,
+          "measure": 5,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 19.04,
+          "measure": 5,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 19.54,
+          "measure": 5,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 20.04,
+          "measure": 6,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 20.56,
+          "measure": 6,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 21.049999999999997,
+          "measure": 6,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 21.54,
+          "measure": 7,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 21.98,
+          "measure": 7,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 22.509999999999998,
+          "measure": 7,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 23.04,
+          "measure": 8,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 23.52,
+          "measure": 8,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 24.0,
+          "measure": 8,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 24.48,
+          "measure": 9,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 25.006666666666668,
+          "measure": 9,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 25.53333333333333,
+          "measure": 9,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 26.046998819362393,
+          "measure": 10,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 26.551332546241596,
+          "measure": 10,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 27.055666273120796,
+          "measure": 10,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 27.56,
+          "measure": 11,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 28.04,
+          "measure": 11,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 28.4912,
+          "measure": 11,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 29.06,
+          "measure": 12,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 29.56,
+          "measure": 12,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 30.06,
+          "measure": 12,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 30.56,
+          "measure": 13,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 31.046666666666667,
+          "measure": 13,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 31.533333333333335,
+          "measure": 13,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 32.02,
+          "measure": 14,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 32.52,
+          "measure": 14,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 33.049795918367344,
+          "measure": 14,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 33.56,
+          "measure": 15,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 34.04,
+          "measure": 15,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 34.56,
+          "measure": 15,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 35.04,
+          "measure": 16,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 35.526666666666664,
+          "measure": 16,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 36.013333333333335,
+          "measure": 16,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 36.5,
+          "measure": 9,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 36.9850198740653,
+          "measure": 9,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 37.470039748130596,
+          "measure": 9,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 37.9550596221959,
+          "measure": 10,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 38.46755844155835,
+          "measure": 10,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 38.9800572609208,
+          "measure": 10,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 39.49255608028326,
+          "measure": 11,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 40.04,
+          "measure": 11,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 40.5108,
+          "measure": 11,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 41.06,
+          "measure": 12,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 41.5323693427784,
+          "measure": 12,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 42.0047386855568,
+          "measure": 12,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 42.4771080283352,
+          "measure": 13,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 43.04,
+          "measure": 13,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 43.55282051282052,
+          "measure": 13,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 44.02,
+          "measure": 14,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 44.54,
+          "measure": 14,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 45.05020408163266,
+          "measure": 14,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 45.58,
+          "measure": 15,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 46.10329712711527,
+          "measure": 15,
+          "beat": 2,
+          "kind": "BEAT"
+        },
+        {
+          "time": 46.62659425423054,
+          "measure": 15,
+          "beat": 3,
+          "kind": "BEAT"
+        },
+        {
+          "time": 47.14989138134581,
+          "measure": 16,
+          "beat": 1,
+          "kind": "BEAT"
+        },
+        {
+          "time": 47.63224321133401,
+          "measure": 16,
+          "beat": 2,
+          "kind": "BEAT"
+        }
+      ]
+    },
+    {
+      "kind": "SCORE_TIMELINE",
+      "height": 1,
+      "is_visible": false,
+      "name": "Score",
+      "ordinal": 5,
+      "components": [
+        {
+          "staff_index": 0,
+          "time": 0.04,
+          "fifths": -4,
+          "measure": 0,
+          "beat": 1,
+          "kind": "KEY_SIGNATURE"
+        },
+        {
+          "staff_index": 1,
+          "time": 0.04,
+          "fifths": -4,
+          "measure": 0,
+          "beat": 1,
+          "kind": "KEY_SIGNATURE"
+        },
+        {
+          "line_count": 5,
+          "index": 0,
+          "kind": "STAFF"
+        },
+        {
+          "staff_index": 0,
+          "time": 0.04,
+          "line_number": -1,
+          "step": 4,
+          "octave": 4,
+          "icon": "clef-treble.svg",
+          "measure": 0,
+          "beat": 1,
+          "kind": "CLEF"
+        },
+        {
+          "staff_index": 1,
+          "time": 0.04,
+          "line_number": 1,
+          "step": 3,
+          "octave": 3,
+          "icon": "clef-bass.svg",
+          "measure": 0,
+          "beat": 1,
+          "kind": "CLEF"
+        },
+        {
+          "time": 0.04,
+          "measure": 0,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "staff_index": 0,
+          "time": 0.04,
+          "numerator": 3,
+          "denominator": 4,
+          "measure": 0,
+          "beat": 1,
+          "kind": "TIME_SIGNATURE"
+        },
+        {
+          "staff_index": 1,
+          "time": 0.04,
+          "numerator": 3,
+          "denominator": 4,
+          "measure": 0,
+          "beat": 1,
+          "kind": "TIME_SIGNATURE"
+        },
+        {
+          "start": 0.04,
+          "end": 1.2902497502497503,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 1.2502497502497503,
+          "length_in_measures": [
+            1,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.04,
+          "end": 1.54,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 1.5,
+          "length_in_measures": [
+            1,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.04,
+          "end": 1.54,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 1.5,
+          "length_in_measures": [
+            1,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.04,
+          "end": 2.06,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 2.02,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 0.54,
+          "measure": 1,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 0.54,
+          "end": 1.5404995004995006,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 1.0004995004995005,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.54,
+          "end": 1.5404995004995006,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 1.0004995004995005,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.54,
+          "end": 13.275244755244755,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 12.735244755244754,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 0.54,
+          "end": 14.06,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 13.52,
+          "length_in_measures": [
+            1,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "line_count": 5,
+          "index": 1,
+          "kind": "STAFF"
+        },
+        {
+          "start": 1.2902497502497503,
+          "end": 1.54,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.24975024975024973,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.54,
+          "end": 2.06,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.52,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.54,
+          "end": 2.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.52,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 1.54,
+          "end": 2.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.52,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 2.06,
+          "measure": 2,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 2.06,
+          "end": 2.5395200000000004,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.4795200000000004,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.06,
+          "end": 2.5395200000000004,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.4795200000000004,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.54,
+          "end": 2.8002597402597402,
+          "step": 6,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.2602597402597402,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.54,
+          "end": 3.06,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.52,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.54,
+          "end": 3.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.52,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 2.8002597402597402,
+          "end": 3.06,
+          "step": 5,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.2597402597402598,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.06,
+          "end": 3.2992792792792796,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.2392792792792795,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.06,
+          "end": 3.54,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.48,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.06,
+          "end": 3.54,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.48,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.2992792792792796,
+          "end": 3.54,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.24072072072072048,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 3.54,
+          "measure": 3,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 3.54,
+          "end": 4.2902497502497505,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.7502497502497505,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.54,
+          "end": 4.54,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.54,
+          "end": 4.54,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 3.54,
+          "end": 5.08,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 1.54,
+          "length_in_measures": [
+            1,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.2902497502497505,
+          "end": 4.54,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.2497502497502495,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.54,
+          "end": 5.08,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.54,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.54,
+          "end": 5.08,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.54,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 4.54,
+          "end": 5.08,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.54,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 5.08,
+          "measure": 4,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 5.08,
+          "end": 5.55952,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.47951999999999995,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.08,
+          "end": 5.55952,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.47951999999999995,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.56,
+          "end": 5.81024975024975,
+          "step": 5,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.2502497502497505,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.56,
+          "end": 6.06,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.56,
+          "end": 6.06,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 5.81024975024975,
+          "end": 6.06,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.2497502497502495,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.06,
+          "end": 6.309249249249249,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.24924924924924952,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.06,
+          "end": 6.56,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.06,
+          "end": 6.56,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.309249249249249,
+          "end": 6.56,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.2507507507507505,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 6.56,
+          "measure": 5,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 6.56,
+          "end": 6.800479999999999,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.2404799999999998,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.56,
+          "end": 7.03952,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.56,
+          "end": 7.03952,
+          "step": 0,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 6.56,
+          "end": 7.03952,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.04,
+          "end": 7.789249249249249,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.7492492492492486,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.04,
+          "end": 8.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.9999999999999991,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.04,
+          "end": 8.04,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.9999999999999991,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.04,
+          "end": 8.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.9999999999999991,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.04,
+          "end": 8.04,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.9999999999999991,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.04,
+          "end": 8.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.9999999999999991,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 7.789249249249249,
+          "end": 8.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.2507507507507505,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 8.04,
+          "measure": 6,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 8.04,
+          "end": 8.300519999999999,
+          "step": 5,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.04,
+          "end": 8.300519999999999,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.04,
+          "end": 8.300519999999999,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.04,
+          "end": 8.300519999999999,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.56,
+          "end": 9.294264264264264,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.7342642642642634,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.56,
+          "end": 9.54,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9799999999999986,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.56,
+          "end": 9.54,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9799999999999986,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.56,
+          "end": 9.54,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9799999999999986,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.56,
+          "end": 9.54,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9799999999999986,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 8.56,
+          "end": 9.54,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9799999999999986,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.294264264264264,
+          "end": 9.54,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.24573573573573526,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 9.54,
+          "measure": 7,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 9.54,
+          "end": 9.75042,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.21042000000000094,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.54,
+          "end": 9.75042,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.21042000000000094,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.54,
+          "end": 9.95958,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.4195800000000016,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.54,
+          "end": 9.95958,
+          "step": 0,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.4195800000000016,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.54,
+          "end": 9.95958,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.4195800000000016,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.96,
+          "end": 10.76918918918919,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.8091891891891887,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.96,
+          "end": 11.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0799999999999983,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.96,
+          "end": 11.04,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0799999999999983,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.96,
+          "end": 11.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0799999999999983,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.96,
+          "end": 11.04,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0799999999999983,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 9.96,
+          "end": 11.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0799999999999983,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 10.76918918918919,
+          "end": 11.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 3,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.2708108108108096,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 11.04,
+          "measure": 8,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 11.04,
+          "end": 11.79024975024975,
+          "step": 5,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7502497502497505,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.04,
+          "end": 11.79024975024975,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7502497502497505,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.04,
+          "end": 11.79024975024975,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7502497502497505,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.04,
+          "end": 11.79024975024975,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7502497502497505,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 11.79024975024975,
+          "end": 12.54,
+          "step": 5,
+          "accidental": -1,
+          "octave": 2,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 1,
+          "end_beat": 1,
+          "length": 0.7497502497502495,
+          "length_in_measures": [
+            -8,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 12.54,
+          "measure": 1,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 12.54,
+          "end": 13.52,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 12.54,
+          "end": 13.52,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 1,
+          "start_beat": 1,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.275244755244755,
+          "end": 13.52,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 1,
+          "end_beat": 3,
+          "length": 0.24475524475524502,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.52,
+          "end": 14.06,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.5400000000000009,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.52,
+          "end": 14.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.5400000000000009,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 13.52,
+          "end": 14.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 1,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 1,
+          "length": 0.5400000000000009,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 14.06,
+          "measure": 2,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 14.06,
+          "end": 14.53952,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.47951999999999906,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.06,
+          "end": 14.53952,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 1,
+          "end_measure": 2,
+          "end_beat": 2,
+          "length": 0.47951999999999906,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.54,
+          "end": 14.80025974025974,
+          "step": 6,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.2602597402597411,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.54,
+          "end": 15.06,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.5200000000000014,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.54,
+          "end": 15.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 2,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.5200000000000014,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 14.80025974025974,
+          "end": 15.06,
+          "step": 5,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.25974025974026027,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.06,
+          "end": 15.299279279279279,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 2,
+          "end_beat": 3,
+          "length": 0.2392792792792786,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.06,
+          "end": 15.54,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.47999999999999865,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.06,
+          "end": 15.54,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.47999999999999865,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.299279279279279,
+          "end": 15.54,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 2,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 0.24072072072072004,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 15.54,
+          "measure": 3,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 15.54,
+          "end": 16.275244755244756,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.7352447552447572,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.54,
+          "end": 16.52,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.54,
+          "end": 16.52,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 15.54,
+          "end": 17.08,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 1.5399999999999991,
+          "length_in_measures": [
+            1,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.275244755244756,
+          "end": 16.52,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 3,
+          "end_beat": 3,
+          "length": 0.24475524475524324,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.52,
+          "end": 17.08,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5599999999999987,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.52,
+          "end": 17.08,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5599999999999987,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 16.52,
+          "end": 17.08,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 3,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 1,
+          "length": 0.5599999999999987,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 17.08,
+          "measure": 4,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 17.08,
+          "end": 17.55952,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.08,
+          "end": 17.55952,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 1,
+          "end_measure": 4,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.56,
+          "end": 17.81024975024975,
+          "step": 5,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.2502497502497505,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.56,
+          "end": 18.06,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.56,
+          "end": 18.06,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 2,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 17.81024975024975,
+          "end": 18.06,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.2497502497502495,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.06,
+          "end": 18.30924924924925,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 4,
+          "end_beat": 3,
+          "length": 0.24924924924924952,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.06,
+          "end": 18.56,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.06,
+          "end": 18.56,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.30924924924925,
+          "end": 18.56,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 4,
+          "start_beat": 3,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 0.2507507507507505,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 18.56,
+          "measure": 5,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 18.56,
+          "end": 18.80048,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.24048000000000158,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.56,
+          "end": 19.03952,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.56,
+          "end": 19.03952,
+          "step": 0,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 18.56,
+          "end": 19.03952,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.04,
+          "end": 19.78924924924925,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 5,
+          "end_beat": 3,
+          "length": 0.7492492492492495,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.04,
+          "end": 20.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.04,
+          "end": 20.04,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.04,
+          "end": 20.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.04,
+          "end": 20.04,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.04,
+          "end": 20.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 5,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 19.78924924924925,
+          "end": 20.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 5,
+          "start_beat": 3,
+          "end_measure": 6,
+          "end_beat": 1,
+          "length": 0.2507507507507505,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 20.04,
+          "measure": 6,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 20.04,
+          "end": 20.30052,
+          "step": 5,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.04,
+          "end": 20.30052,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.04,
+          "end": 20.30052,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.04,
+          "end": 20.30052,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 1,
+          "end_measure": 6,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.56,
+          "end": 21.294264264264264,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 6,
+          "end_beat": 3,
+          "length": 0.7342642642642652,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.56,
+          "end": 21.54,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.56,
+          "end": 21.54,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.56,
+          "end": 21.54,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.56,
+          "end": 21.54,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 20.56,
+          "end": 21.54,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.9800000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.294264264264264,
+          "end": 21.54,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 6,
+          "start_beat": 3,
+          "end_measure": 7,
+          "end_beat": 1,
+          "length": 0.24573573573573526,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 21.54,
+          "measure": 7,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 21.54,
+          "end": 21.76044,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.22043999999999997,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.54,
+          "end": 21.76044,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.22043999999999997,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.54,
+          "end": 21.97956,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.4395600000000002,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.54,
+          "end": 21.97956,
+          "step": 0,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.4395600000000002,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.54,
+          "end": 21.97956,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 1,
+          "end_measure": 7,
+          "end_beat": 2,
+          "length": 0.4395600000000002,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.98,
+          "end": 22.774204204204203,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 7,
+          "end_beat": 3,
+          "length": 0.7942042042042026,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.98,
+          "end": 23.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0599999999999987,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.98,
+          "end": 23.04,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0599999999999987,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.98,
+          "end": 23.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0599999999999987,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.98,
+          "end": 23.04,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0599999999999987,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 21.98,
+          "end": 23.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 7,
+          "start_beat": 2,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 1.0599999999999987,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 22.774204204204203,
+          "end": 23.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 7,
+          "start_beat": 3,
+          "end_measure": 8,
+          "end_beat": 1,
+          "length": 0.26579579579579615,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 23.04,
+          "measure": 8,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 23.04,
+          "end": 23.76023976023976,
+          "step": 5,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7202397602397603,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.04,
+          "end": 23.76023976023976,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7202397602397603,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.04,
+          "end": 23.76023976023976,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7202397602397603,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.04,
+          "end": 23.76023976023976,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 0.7202397602397603,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 23.76023976023976,
+          "end": 24.48,
+          "step": 5,
+          "accidental": -1,
+          "octave": 2,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 9,
+          "end_beat": 1,
+          "length": 0.719760239760241,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 24.48,
+          "measure": 9,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 24.48,
+          "end": 24.74386,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 2,
+          "length": 0.2638600000000011,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 24.48,
+          "end": 25.006140000000002,
+          "step": 0,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 2,
+          "length": 0.5261400000000016,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 25.006666666666668,
+          "end": 25.53333333333333,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 9,
+          "end_beat": 3,
+          "length": 0.5266666666666637,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 25.006666666666668,
+          "end": 25.53333333333333,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 9,
+          "end_beat": 3,
+          "length": 0.5266666666666637,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 25.006666666666668,
+          "end": 25.78939480684932,
+          "step": 5,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 9,
+          "end_beat": 3,
+          "length": 0.7827281401826518,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 25.006666666666668,
+          "end": 26.046998819362393,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 1.0403321526957257,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 25.53333333333333,
+          "end": 26.046998819362393,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 3,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 0.5136654860290619,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 25.53333333333333,
+          "end": 26.046998819362393,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 3,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 0.5136654860290619,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 25.78939480684932,
+          "end": 26.046998819362393,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 3,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 0.25760401251307385,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 26.046998819362393,
+          "measure": 10,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 26.046998819362393,
+          "end": 26.299670016528875,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 1,
+          "end_measure": 10,
+          "end_beat": 2,
+          "length": 0.2526711971664817,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 26.046998819362393,
+          "end": 26.299670016528875,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 10,
+          "start_beat": 1,
+          "end_measure": 10,
+          "end_beat": 2,
+          "length": 0.2526711971664817,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 26.046998819362393,
+          "end": 26.550828212514716,
+          "step": 1,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 1,
+          "end_measure": 10,
+          "end_beat": 2,
+          "length": 0.5038293931523228,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 26.551332546241596,
+          "end": 27.055666273120796,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 3,
+          "length": 0.5043337268791994,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 26.551332546241596,
+          "end": 27.055666273120796,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 3,
+          "length": 0.5043337268791994,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 26.551332546241596,
+          "end": 27.30707587871223,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 3,
+          "length": 0.7557433324706331,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 26.551332546241596,
+          "end": 27.56,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 1.0086674537584024,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 27.055666273120796,
+          "end": 27.56,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 3,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 0.504333726879203,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 27.055666273120796,
+          "end": 27.56,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 3,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 0.504333726879203,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 27.30707587871223,
+          "end": 27.56,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 3,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 0.2529241212877693,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 27.56,
+          "measure": 11,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 27.56,
+          "end": 27.80048,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 11,
+          "end_beat": 2,
+          "length": 0.24048000000000158,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 27.56,
+          "end": 27.80048,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 11,
+          "end_beat": 2,
+          "length": 0.24048000000000158,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 27.56,
+          "end": 28.03952,
+          "step": 6,
+          "accidental": 0,
+          "octave": 2,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 11,
+          "end_beat": 2,
+          "length": 0.47952000000000083,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 28.04,
+          "end": 28.4912,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 3,
+          "length": 0.45120000000000005,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 28.04,
+          "end": 28.4912,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 3,
+          "length": 0.45120000000000005,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 28.04,
+          "end": 28.774745945945945,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 3,
+          "length": 0.7347459459459458,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 28.04,
+          "end": 29.06,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 1.0199999999999996,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 28.4912,
+          "end": 29.06,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 3,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 0.5687999999999995,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 28.4912,
+          "end": 29.06,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 3,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 0.5687999999999995,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 28.774745945945945,
+          "end": 29.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 3,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 0.2852540540540538,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 29.06,
+          "measure": 12,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 29.06,
+          "end": 29.310499999999998,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 1,
+          "end_measure": 12,
+          "end_beat": 2,
+          "length": 0.25049999999999883,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 29.06,
+          "end": 29.310499999999998,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 12,
+          "start_beat": 1,
+          "end_measure": 12,
+          "end_beat": 2,
+          "length": 0.25049999999999883,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 29.06,
+          "end": 29.5595,
+          "step": 0,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 1,
+          "end_measure": 12,
+          "end_beat": 2,
+          "length": 0.49950000000000117,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 29.56,
+          "end": 30.06,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 3,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 29.56,
+          "end": 30.06,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 3,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 29.56,
+          "end": 30.30924924924925,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 3,
+          "length": 0.7492492492492495,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 29.56,
+          "end": 30.56,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 1.0,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 30.06,
+          "end": 30.56,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 3,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 30.06,
+          "end": 30.56,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 3,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 0.5,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 30.30924924924925,
+          "end": 30.56,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 3,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 0.2507507507507505,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 30.56,
+          "measure": 13,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 30.56,
+          "end": 30.803819999999998,
+          "step": 4,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 2,
+          "length": 0.24381999999999948,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 30.56,
+          "end": 30.803819999999998,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 2,
+          "length": 0.24381999999999948,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 30.56,
+          "end": 31.04618,
+          "step": 0,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 2,
+          "length": 0.48618000000000094,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 31.046666666666667,
+          "end": 31.533333333333335,
+          "step": 4,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 3,
+          "length": 0.48666666666666814,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 31.046666666666667,
+          "end": 31.533333333333335,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 3,
+          "length": 0.48666666666666814,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 31.046666666666667,
+          "end": 31.775935935935937,
+          "step": 4,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 3,
+          "length": 0.7292692692692704,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 31.046666666666667,
+          "end": 32.02,
+          "step": 4,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.9733333333333363,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 31.533333333333335,
+          "end": 32.02,
+          "step": 4,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 3,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.48666666666666814,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 31.533333333333335,
+          "end": 32.02,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 3,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.48666666666666814,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 31.775935935935937,
+          "end": 32.02,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 3,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.2440640640640659,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 32.02,
+          "measure": 14,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 32.02,
+          "end": 32.270500000000006,
+          "step": 4,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 14,
+          "start_beat": 1,
+          "end_measure": 14,
+          "end_beat": 2,
+          "length": 0.2505000000000024,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 32.02,
+          "end": 32.270500000000006,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 14,
+          "start_beat": 1,
+          "end_measure": 14,
+          "end_beat": 2,
+          "length": 0.2505000000000024,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 32.02,
+          "end": 32.5195,
+          "step": 1,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 1,
+          "end_measure": 14,
+          "end_beat": 2,
+          "length": 0.4994999999999976,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 32.52,
+          "end": 33.049795918367344,
+          "step": 3,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.5297959183673413,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 32.52,
+          "end": 33.049795918367344,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.5297959183673413,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 32.52,
+          "end": 33.049795918367344,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.5297959183673413,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 32.52,
+          "end": 33.30413188698903,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.7841318869890301,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 32.52,
+          "end": 33.56,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 1.0399999999999991,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.049795918367344,
+          "end": 33.56,
+          "step": 3,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.5102040816326578,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.049795918367344,
+          "end": 33.56,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.5102040816326578,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.049795918367344,
+          "end": 33.56,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.5102040816326578,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.30413188698903,
+          "end": 33.56,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.255868113010969,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 33.56,
+          "measure": 15,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 33.56,
+          "end": 33.80048,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.24047999999999803,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.56,
+          "end": 34.039519999999996,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.47951999999999373,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.56,
+          "end": 34.039519999999996,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.47951999999999373,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.56,
+          "end": 34.039519999999996,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.47951999999999373,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 33.80048,
+          "end": 34.039519999999996,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.2390399999999957,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.04,
+          "end": 34.30025974025974,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.2602597402597411,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.04,
+          "end": 34.56,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.5200000000000031,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.04,
+          "end": 34.56,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.5200000000000031,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.04,
+          "end": 34.56,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.5200000000000031,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.30025974025974,
+          "end": 34.56,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.25974025974026205,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.56,
+          "end": 34.79927927927928,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.2392792792792804,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.56,
+          "end": 35.04,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.4799999999999969,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.56,
+          "end": 35.04,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.4799999999999969,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.56,
+          "end": 35.04,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.4799999999999969,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 34.79927927927928,
+          "end": 35.04,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.24072072072071649,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 35.04,
+          "measure": 16,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 35.04,
+          "end": 35.77024309024309,
+          "step": 5,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 16,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 3,
+          "length": 0.7302430902430928,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 35.04,
+          "end": 35.77024309024309,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 16,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 3,
+          "length": 0.7302430902430928,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 35.04,
+          "end": 36.5,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 16,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 1,
+          "length": 1.4600000000000009,
+          "length_in_measures": [
+            -7,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 35.04,
+          "end": 36.5,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 16,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 1,
+          "length": 1.4600000000000009,
+          "length_in_measures": [
+            -7,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 36.5,
+          "measure": 9,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 36.5,
+          "end": 36.74299495690671,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 2,
+          "length": 0.24299495690671336,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 36.5,
+          "end": 36.98453485419124,
+          "step": 0,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 1,
+          "end_measure": 9,
+          "end_beat": 2,
+          "length": 0.48453485419123865,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 36.9850198740653,
+          "end": 37.470039748130596,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 9,
+          "end_beat": 3,
+          "length": 0.48501987406529423,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 36.9850198740653,
+          "end": 37.470039748130596,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 9,
+          "end_beat": 3,
+          "length": 0.48501987406529423,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 36.9850198740653,
+          "end": 37.71182142709408,
+          "step": 5,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 9,
+          "end_beat": 3,
+          "length": 0.7268015530287784,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 36.9850198740653,
+          "end": 37.9550596221959,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 0.9700397481305956,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 37.470039748130596,
+          "end": 37.9550596221959,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 3,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 0.48501987406530134,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 37.470039748130596,
+          "end": 37.9550596221959,
+          "step": 2,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 3,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 0.48501987406530134,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 37.71182142709408,
+          "end": 37.9550596221959,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 9,
+          "start_beat": 3,
+          "end_measure": 10,
+          "end_beat": 1,
+          "length": 0.2432381951018172,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 37.9550596221959,
+          "measure": 10,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 37.9550596221959,
+          "end": 38.21182153069649,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 1,
+          "end_measure": 10,
+          "end_beat": 2,
+          "length": 0.256761908500593,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 37.9550596221959,
+          "end": 38.21182153069649,
+          "step": 2,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 10,
+          "start_beat": 1,
+          "end_measure": 10,
+          "end_beat": 2,
+          "length": 0.256761908500593,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 37.9550596221959,
+          "end": 38.46704594273899,
+          "step": 1,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 1,
+          "end_measure": 10,
+          "end_beat": 2,
+          "length": 0.5119863205430946,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 38.46755844155835,
+          "end": 38.9800572609208,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 3,
+          "length": 0.5124988193624489,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 38.46755844155835,
+          "end": 38.9800572609208,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 3,
+          "length": 0.5124988193624489,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 38.46755844155835,
+          "end": 39.23553715285524,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 10,
+          "end_beat": 3,
+          "length": 0.7679787112968839,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 38.46755844155835,
+          "end": 39.49255608028326,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 1.024997638724905,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 38.9800572609208,
+          "end": 39.49255608028326,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 3,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 0.512498819362456,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 38.9800572609208,
+          "end": 39.49255608028326,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 3,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 0.512498819362456,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 39.23553715285524,
+          "end": 39.49255608028326,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 10,
+          "start_beat": 3,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 0.257018927428021,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 39.49255608028326,
+          "measure": 11,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 39.49255608028326,
+          "end": 39.76682548406134,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 11,
+          "end_beat": 2,
+          "length": 0.27426940377808506,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 39.49255608028326,
+          "end": 39.76682548406134,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 11,
+          "end_beat": 2,
+          "length": 0.27426940377808506,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 39.49255608028326,
+          "end": 40.039452556080285,
+          "step": 6,
+          "accidental": 0,
+          "octave": 2,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 11,
+          "end_beat": 2,
+          "length": 0.5468964757970269,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 40.04,
+          "end": 40.5108,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 3,
+          "length": 0.4708000000000041,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 40.04,
+          "end": 40.5108,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 3,
+          "length": 0.4708000000000041,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 40.04,
+          "end": 40.784575375375375,
+          "step": 4,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 11,
+          "end_beat": 3,
+          "length": 0.7445753753753763,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 40.04,
+          "end": 41.06,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 1.0200000000000031,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 40.5108,
+          "end": 41.06,
+          "step": 6,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 3,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 0.549199999999999,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 40.5108,
+          "end": 41.06,
+          "step": 1,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 3,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 0.549199999999999,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 40.784575375375375,
+          "end": 41.06,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 11,
+          "start_beat": 3,
+          "end_measure": 12,
+          "end_beat": 1,
+          "length": 0.2754246246246268,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 41.06,
+          "measure": 12,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 41.06,
+          "end": 41.29665704073198,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 1,
+          "end_measure": 12,
+          "end_beat": 2,
+          "length": 0.23665704073197702,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 41.06,
+          "end": 41.29665704073198,
+          "step": 1,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 12,
+          "start_beat": 1,
+          "end_measure": 12,
+          "end_beat": 2,
+          "length": 0.23665704073197702,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 41.06,
+          "end": 41.53189697343562,
+          "step": 0,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 1,
+          "end_measure": 12,
+          "end_beat": 2,
+          "length": 0.4718969734356193,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 41.5323693427784,
+          "end": 42.0047386855568,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 3,
+          "length": 0.4723693427783999,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 41.5323693427784,
+          "end": 42.0047386855568,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 3,
+          "length": 0.4723693427783999,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 41.5323693427784,
+          "end": 42.240214093668556,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 12,
+          "end_beat": 3,
+          "length": 0.7078447508901533,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 41.5323693427784,
+          "end": 42.4771080283352,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 0.9447386855567999,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 42.0047386855568,
+          "end": 42.4771080283352,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 3,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 0.4723693427783999,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 42.0047386855568,
+          "end": 42.4771080283352,
+          "step": 2,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 3,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 0.4723693427783999,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 42.240214093668556,
+          "end": 42.4771080283352,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 12,
+          "start_beat": 3,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 0.23689393466664654,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 42.4771080283352,
+          "measure": 13,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 42.4771080283352,
+          "end": 42.75911690613926,
+          "step": 4,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 2,
+          "length": 0.2820088778040599,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 42.4771080283352,
+          "end": 42.75911690613926,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 2,
+          "length": 0.2820088778040599,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 42.4771080283352,
+          "end": 43.03943710802834,
+          "step": 0,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 2,
+          "length": 0.5623290796931357,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 43.04,
+          "end": 43.55282051282052,
+          "step": 4,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 3,
+          "length": 0.5128205128205181,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 43.04,
+          "end": 43.55282051282052,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 3,
+          "length": 0.5128205128205181,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 43.04,
+          "end": 43.78570878570879,
+          "step": 4,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 13,
+          "end_beat": 3,
+          "length": 0.7457087857087927,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 43.04,
+          "end": 44.02,
+          "step": 4,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 13,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.980000000000004,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 43.55282051282052,
+          "end": 44.02,
+          "step": 4,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 3,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.4671794871794859,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 43.55282051282052,
+          "end": 44.02,
+          "step": 5,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 3,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.4671794871794859,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 43.78570878570879,
+          "end": 44.02,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 13,
+          "start_beat": 3,
+          "end_measure": 14,
+          "end_beat": 1,
+          "length": 0.23429121429121125,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 44.02,
+          "measure": 14,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 44.02,
+          "end": 44.28052,
+          "step": 4,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 14,
+          "start_beat": 1,
+          "end_measure": 14,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 44.02,
+          "end": 44.28052,
+          "step": 5,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 14,
+          "start_beat": 1,
+          "end_measure": 14,
+          "end_beat": 2,
+          "length": 0.26051999999999964,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 44.02,
+          "end": 44.53948,
+          "step": 1,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 1,
+          "end_measure": 14,
+          "end_beat": 2,
+          "length": 0.5194799999999944,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 44.54,
+          "end": 45.05020408163266,
+          "step": 3,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.5102040816326578,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 44.54,
+          "end": 45.05020408163266,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.5102040816326578,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 44.54,
+          "end": 45.05020408163266,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.5102040816326578,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 44.54,
+          "end": 45.31430655144941,
+          "step": 3,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 14,
+          "end_beat": 3,
+          "length": 0.7743065514494134,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 44.54,
+          "end": 45.58,
+          "step": 3,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 1.0399999999999991,
+          "length_in_measures": [
+            0,
+            2
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.05020408163266,
+          "end": 45.58,
+          "step": 3,
+          "accidental": 0,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.5297959183673413,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.05020408163266,
+          "end": 45.58,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.5297959183673413,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.05020408163266,
+          "end": 45.58,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.5297959183673413,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.31430655144941,
+          "end": 45.58,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 14,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 1,
+          "length": 0.26569344855058574,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 45.58,
+          "measure": 15,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 45.58,
+          "end": 45.84217186068475,
+          "step": 2,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.2621718606847523,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.58,
+          "end": 46.10277382998815,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.5227738299881537,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.58,
+          "end": 46.10277382998815,
+          "step": 6,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.5227738299881537,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.58,
+          "end": 46.10277382998815,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 15,
+          "start_beat": 1,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.5227738299881537,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 45.84217186068475,
+          "end": 46.10277382998815,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 2,
+          "length": 0.2606019693034014,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.10329712711527,
+          "end": 46.365207077849284,
+          "step": 1,
+          "accidental": -1,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.26190995073401524,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.10329712711527,
+          "end": 46.62659425423054,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.5232971271152707,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.10329712711527,
+          "end": 46.62659425423054,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.5232971271152707,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.10329712711527,
+          "end": 46.62659425423054,
+          "step": 5,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": true,
+          "start_measure": 15,
+          "start_beat": 2,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.5232971271152707,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.365207077849284,
+          "end": 46.62659425423054,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.2613871763812554,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.62659425423054,
+          "end": 46.887457086366084,
+          "step": 0,
+          "accidental": 0,
+          "octave": 5,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 15,
+          "end_beat": 3,
+          "length": 0.26086283213554395,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.62659425423054,
+          "end": 47.14989138134581,
+          "step": 2,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.5232971271152707,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.62659425423054,
+          "end": 47.14989138134581,
+          "step": 1,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.5232971271152707,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.62659425423054,
+          "end": 47.14989138134581,
+          "step": 4,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.5232971271152707,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 46.887457086366084,
+          "end": 47.14989138134581,
+          "step": 6,
+          "accidental": -1,
+          "octave": 4,
+          "staff_index": 0,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 15,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 1,
+          "length": 0.2624342949797267,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "time": 47.14989138134581,
+          "measure": 16,
+          "beat": 1,
+          "kind": "BAR_LINE"
+        },
+        {
+          "start": 47.14989138134581,
+          "end": 47.63224321133401,
+          "step": 5,
+          "accidental": -1,
+          "octave": 3,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 16,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 0.4823518299881968,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        },
+        {
+          "start": 47.14989138134581,
+          "end": 47.63224321133401,
+          "step": 0,
+          "accidental": 0,
+          "octave": 4,
+          "staff_index": 1,
+          "comments": "",
+          "display_accidental": false,
+          "start_measure": 16,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 0.4823518299881968,
+          "length_in_measures": [
+            0,
+            1
+          ],
+          "kind": "NOTE"
+        }
+      ]
+    },
+    {
+      "kind": "HIERARCHY_TIMELINE",
+      "name": "Form",
+      "height": 160,
+      "is_visible": true,
+      "ordinal": 2,
+      "components": [
+        {
+          "start": 0,
+          "pre_start": 0,
+          "end": 3.538352142857143,
+          "post_end": 3.538352142857143,
+          "level": 1,
+          "label": "mod",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 3,
+          "end_beat": 1,
+          "length": 3.538352142857143,
+          "length_in_measures": [
+            3,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 3.538352142857143,
+          "pre_start": 3.538352142857143,
+          "end": 6.566014285714286,
+          "post_end": 6.566014285714286,
+          "level": 1,
+          "label": "seq",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 3,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 3.027662142857143,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 6.566014285714286,
+          "pre_start": 6.566014285714286,
+          "end": 12.037692857142858,
+          "post_end": 12.037692857142858,
+          "level": 1,
+          "label": "frag > cad",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 5.471678571428572,
+          "length_in_measures": [
+            3,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.00243,
+          "pre_start": 24.00243,
+          "end": 27.61373785714286,
+          "post_end": 27.61373785714286,
+          "level": 1,
+          "label": "g: mod [f*]",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 11,
+          "end_beat": 1,
+          "length": 3.611307857142858,
+          "length_in_measures": [
+            2,
+            1
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 27.61373785714286,
+          "pre_start": 27.61373785714286,
+          "end": 30.568444285714286,
+          "post_end": 30.568444285714286,
+          "level": 1,
+          "label": "seq",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 11,
+          "start_beat": 1,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 2.954706428571427,
+          "length_in_measures": [
+            2,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 30.568444285714286,
+          "pre_start": 30.568444285714286,
+          "end": 36.04012285714286,
+          "post_end": 36.04012285714286,
+          "level": 1,
+          "label": "frag [g] > cad",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 3,
+          "length": 5.471678571428576,
+          "length_in_measures": [
+            3,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0,
+          "pre_start": 0,
+          "end": 6.566014285714286,
+          "post_end": 6.566014285714286,
+          "level": 2,
+          "label": "pres|seq",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 5,
+          "end_beat": 1,
+          "length": 6.566014285714286,
+          "length_in_measures": [
+            5,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 6.566014285714286,
+          "pre_start": 6.566014285714286,
+          "end": 12.037692857142858,
+          "post_end": 12.037692857142858,
+          "level": 2,
+          "label": "f: cont",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 5,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 5.471678571428572,
+          "length_in_measures": [
+            3,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.00243,
+          "pre_start": 24.00243,
+          "end": 30.568444285714286,
+          "post_end": 30.568444285714286,
+          "level": 2,
+          "label": "pres|seq",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 13,
+          "end_beat": 1,
+          "length": 6.566014285714285,
+          "length_in_measures": [
+            4,
+            1
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 30.568444285714286,
+          "pre_start": 30.568444285714286,
+          "end": 36.04012285714286,
+          "post_end": 36.04012285714286,
+          "level": 2,
+          "label": "cont",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 13,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 3,
+          "length": 5.471678571428576,
+          "length_in_measures": [
+            3,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0,
+          "pre_start": 0,
+          "end": 12.037692857142858,
+          "post_end": 12.037692857142858,
+          "level": 3,
+          "label": "theme|sent",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 12.037692857142858,
+          "length_in_measures": [
+            8,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 12.037692857142858,
+          "pre_start": 12.037692857142858,
+          "end": 24.00243,
+          "post_end": 24.00243,
+          "level": 3,
+          "label": "%",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 11.964737142857143,
+          "length_in_measures": [
+            0,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.00243,
+          "pre_start": 24.00243,
+          "end": 36.04012285714286,
+          "post_end": 36.04012285714286,
+          "level": 3,
+          "label": "theme|sent",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 3,
+          "length": 12.037692857142861,
+          "length_in_measures": [
+            8,
+            0
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 36.04012285714286,
+          "pre_start": 36.04012285714286,
+          "end": 48.535,
+          "post_end": 48.535,
+          "level": 3,
+          "label": "%",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 16,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 12.494877142857135,
+          "length_in_measures": [
+            -1,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0,
+          "pre_start": 0,
+          "end": 24.00243,
+          "post_end": 24.00243,
+          "level": 4,
+          "label": "1st_section|repeated_section",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 8,
+          "end_beat": 3,
+          "length": 24.00243,
+          "length_in_measures": [
+            8,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 24.00243,
+          "pre_start": 24.00243,
+          "end": 48.535,
+          "post_end": 48.535,
+          "level": 4,
+          "label": "2nd_section|repeated_section",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 8,
+          "start_beat": 3,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 24.532569999999996,
+          "length_in_measures": [
+            7,
+            2
+          ],
+          "kind": "HIERARCHY"
+        },
+        {
+          "start": 0,
+          "pre_start": 0,
+          "end": 48.537520422156575,
+          "post_end": 48.537520422156575,
+          "level": 5,
+          "label": "dance|simple_binary",
+          "formal_type": "",
+          "formal_function": "",
+          "comments": "",
+          "start_measure": 0,
+          "start_beat": 1,
+          "end_measure": 16,
+          "end_beat": 2,
+          "length": 48.537520422156575,
+          "length_in_measures": [
+            16,
+            1
+          ],
+          "kind": "HIERARCHY"
+        }
+      ]
+    },
+    {
+      "kind": "MARKER_TIMELINE",
+      "name": "Cadences",
+      "height": 30,
+      "is_visible": true,
+      "ordinal": 4,
+      "components": [
+        {
+          "time": 11.062201059646586,
+          "comments": "",
+          "label": "PAC(I)",
+          "measure": 8,
+          "beat": 1,
+          "kind": "MARKER"
+        },
+        {
+          "time": 35.05522071428572,
+          "comments": "",
+          "label": "PAC(I)",
+          "measure": 16,
+          "beat": 1,
+          "kind": "MARKER"
+        }
+      ]
+    },
+    {
+      "kind": "MARKER_TIMELINE",
+      "name": "Comments",
+      "height": 30,
+      "is_visible": true,
+      "ordinal": 6,
+      "components": []
+    }
+  ],
+  "media_metadata": {
+    "title": "Untitled",
+    "notes": "",
+    "composer": "",
+    "tonality": "",
+    "time signature": "",
+    "performer": "",
+    "performance year": "",
+    "arranger": "",
+    "composition year": "",
+    "recording year": "",
+    "form": "",
+    "instrumentation": "",
+    "genre": "",
+    "lyrics": "",
+    "media length": 51.069
+  },
+  "media_path": "C:/Users/koesterma/Downloads/PortableGit/annotation_pilot/recordings/MP3_synth/D790l\u00e4ndler11.mp3"
+}
