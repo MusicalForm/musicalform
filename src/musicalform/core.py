@@ -95,7 +95,8 @@ class ReferencingLabel(ABC):  # noqa: B024
 class SingleFunction(FormalFunction):
     name: SpecificFunctionName | UnitName
     notional: bool = False  # "function"
-    crossing_rightward: bool = False  # function /
+    crossing_rightward: bool = False  # function /  (fusion with the subsequent label)
+    transforming_rightward: bool = False  # function >  (transformation into the subsequent label)
 
     @classmethod
     def from_name(
@@ -103,6 +104,7 @@ class SingleFunction(FormalFunction):
         name: SpecificFunctionName | UnitName,
         notional=False,
         crossing_rightward=False,
+        transforming_rightward=False,
         cardinality=None,
     ) -> SpecificFunction | GenericFunction:
         """Dispatch to the appropriate subclass based on the type of the name.
@@ -111,12 +113,18 @@ class SingleFunction(FormalFunction):
         if isinstance(name, SpecificFunctionName):
             if cardinality is not None:
                 raise ValueError(f"Cardinality is not applicable to specific functions. Got {cardinality=}")
-            return SpecificFunction(name=name, notional=notional, crossing_rightward=crossing_rightward)
+            return SpecificFunction(
+                name=name,
+                notional=notional,
+                crossing_rightward=crossing_rightward,
+                transforming_rightward=transforming_rightward,
+            )
         elif isinstance(name, UnitName):
             return GenericFunction(
                 name=name,
                 notional=notional,
                 crossing_rightward=crossing_rightward,
+                transforming_rightward=transforming_rightward,
                 cardinality=cardinality,
             )
         else:
@@ -128,6 +136,8 @@ class SingleFunction(FormalFunction):
             label = f'"{label}"'
         if self.crossing_rightward:
             label = label + " /"
+        if self.transforming_rightward:
+            label = label + " >"
         return label
 
 
@@ -172,6 +182,19 @@ class FunctionalTransformation(FormalFunction):
 
     def to_label(self, abbreviate: bool = True) -> str:
         return f"{self.source.to_label(abbreviate=abbreviate)} > " f"{self.target.to_label(abbreviate=abbreviate)}"
+
+
+@dataclass
+class FunctionalFusion(FormalFunction):
+    first: SpecificFunction | GenericFunction
+    second: SpecificFunction | GenericFunction
+
+    @property
+    def specificity(self) -> Tuple[FunctionSpecificity, FunctionSpecificity]:
+        return self.first.specificity, self.second.specificity
+
+    def to_label(self, abbreviate: bool = True) -> str:
+        return f"{self.first.to_label(abbreviate=abbreviate)} / " f"{self.second.to_label(abbreviate=abbreviate)}"
 
 
 # ---------------------------------------------------------------------------
@@ -301,6 +324,8 @@ class TransformationalReferences(References):
             return None
         if parse is None and shorthand is not None:
             source_short, target_short = shorthand
+            if not (source_short or target_short):
+                return None
             return cls(
                 source_references=(MaterialReferences(references=(source_short,)) if source_short else None),
                 target_references=(MaterialReferences(references=(target_short,)) if target_short else None),
@@ -385,7 +410,8 @@ class FormLabel(ReferencingLabel):
         return super().from_parse(
             material_references=material_references,
             shorthand=shorthand,
-            transformational=isinstance(function, FunctionalTransformation),
+            # both binary functions attribute material references to their two functions via ","
+            transformational=isinstance(function, (FunctionalTransformation, FunctionalFusion)),
             function=function,
             type=formal_type,
             certainty=certainty,
@@ -527,11 +553,13 @@ TransformationalShorthand = Tuple[SingleReference, SingleReference]
 
 def _parse_function_label(
     parse: dict | list,
-) -> Tuple[FormalFunction, Optional[SingleReference]] | Tuple[FunctionalTransformation, TransformationalShorthand]:
+) -> (
+    Tuple[FormalFunction, Optional[SingleReference]]
+    | Tuple[FunctionalTransformation | FunctionalFusion, TransformationalShorthand]
+):
     if isinstance(parse, dict):
-        function_expr = parse.pop("FunctionExpr")
-        check_for_unhandled_keys(parse)
-        return _parse_function_expr(function_expr)
+        # a single function, possibly followed by a combinator, e.g. {'FunctionExpr': ..., 'Combinator': '/'}
+        parse = list(parse.items())
     functions, shorthands = [], []
     operator = None
     for thing in parse:
@@ -549,14 +577,24 @@ def _parse_function_label(
                     f"Encountered unknown thing in function label: {thing!r}",
                     UserWarning,
                 )
+    if len(functions) == 1 and operator is None:
+        return functions[0], shorthands[0]
+    if operator not in ("/", ">"):
+        raise ValueError(f"Expected combinator '/' or '>' in function label, got {operator!r}")
     if len(functions) == 1:
+        # combination with the subsequent label
         function = functions[0]
-        assert operator == "/"
-        function.crossing_rightward = True
+        if operator == "/":
+            function.crossing_rightward = True
+        else:
+            function.transforming_rightward = True
         return function, shorthands[0]
+    if len(functions) != 2:
+        raise ValueError(f"Expected one or two functions in function label, got {len(functions)}")
+    if operator == "/":
+        fusion = FunctionalFusion(first=functions[0], second=functions[1])
+        return fusion, tuple(shorthands)
     # interpret as transformation from first to second function
-    assert len(functions) == 2
-    assert operator == ">"
     transformation = FunctionalTransformation(source=functions[0], target=functions[1])
     return transformation, tuple(shorthands)
 

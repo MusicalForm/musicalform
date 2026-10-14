@@ -5,6 +5,8 @@ import pytest
 from musicalform.core import (
     AnnotationLabel,
     FormalType,
+    FunctionalFusion,
+    FunctionalTransformation,
     GenericFunction,
     SingleFunction,
     SingleReference,
@@ -104,4 +106,41 @@ class TestMaterialOperatorOrder:
         ],
     )
     def test_label_rendering_is_canonical(self, label, expected):
+        assert str(AnnotationLabel.from_string(label)) == expected
+
+
+class TestCombinators:
+    def test_fusion(self):
+        function = AnnotationLabel.from_string("cont/codetta")[0].function
+        assert isinstance(function, FunctionalFusion)
+        assert function.first.name == SpecificFunctionName.continuation_idea
+        assert function.second.name == SpecificFunctionName.codetta
+
+    def test_transformation(self):
+        function = AnnotationLabel.from_string("cont>codetta")[0].function
+        assert isinstance(function, FunctionalTransformation)
+
+    def test_fusion_with_subsequent_label(self):
+        function = AnnotationLabel.from_string("cont/")[0].function
+        assert isinstance(function, SpecificFunction)
+        assert function.crossing_rightward
+        assert not function.transforming_rightward
+
+    def test_transformation_into_subsequent_label(self):
+        function = AnnotationLabel.from_string("cont>")[0].function
+        assert isinstance(function, SpecificFunction)
+        assert function.transforming_rightward
+        assert not function.crossing_rightward
+
+    @pytest.mark.parametrize(
+        "label, expected",
+        [
+            ("cont/codetta", "cont / cdta"),
+            ("cont / codetta [a,b]", "cont / cdta [a,b]"),
+            ("cont>codetta", "cont > cdta"),
+            ("cont/", "cont /"),
+            ("cont>", "cont >"),
+        ],
+    )
+    def test_rendering(self, label, expected):
         assert str(AnnotationLabel.from_string(label)) == expected
