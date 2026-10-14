@@ -156,14 +156,16 @@ This enables automatic formatting (black, isort) and linting (flake8) checks on 
 
 The parser (`lcma_standardParser.py`) is auto-generated from the EBNF grammar by
 [DHParser](https://gitlab.lrz.de/badw-it/DHParser). After modifying `lcma_standard.ebnf`,
-regenerate the parser with:
+regenerate the parser and install it into the package with:
 
 ```bash
-dhparser lcma_standard.ebnf
+python grammar/update_parser.py
 ```
 
-This overwrites the `PARSER SECTION` of `lcma_standardParser.py` while preserving the editable
-sections (preprocessor, AST transformations, compiler). Always review the diff before committing.
+This does the same as `dhparser lcma_standard.ebnf` and then moves the generated parser to
+`src/musicalform/cli/lcma_standardParser.py`, the copy that `musicalform validate` actually uses.
+Only the `PARSER SECTION` is regenerated; the editable sections (preprocessor, AST
+transformations, compiler) are preserved. Always review the diff before committing.
 
 ### Debugging with the generated parser
 
