@@ -130,8 +130,6 @@ class SpecificFunctionName(FancyStrEnum):
     mid = middle
     model = auto()
     mod = model
-    movement = auto()
-    mvt = movement
     postcadential = auto()
     pcad = postcadential
     presentation = auto()
@@ -166,6 +164,7 @@ class UnitName(FancyStrEnum):
     idea = auto()
     work = auto()
     movement = auto()
+    mvt = movement
     zone = auto()
     theme = auto()
     album = auto()
