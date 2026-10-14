@@ -8,9 +8,18 @@ Dispatches subcommands:
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 
 from musicalform import __version__
+
+
+def expand_path(value: str) -> str:
+    """Expand a leading ``~`` in a path argument.
+
+    Shells like PowerShell and cmd.exe pass ``~`` through literally to external programs.
+    """
+    return os.path.expanduser(value)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -34,27 +43,31 @@ def build_parser() -> argparse.ArgumentParser:
     )
     validate_parser.set_defaults(print_help=validate_parser.print_help)
     validate_parser.add_argument("-e", "--expression", help="A string expressing a form label.")
-    validate_parser.add_argument("-f", "--file", help="A text file containing a form label.")
+    validate_parser.add_argument("-f", "--file", type=expand_path, help="A text file containing a form label.")
     validate_parser.add_argument(
         "-c",
         "--csv",
+        type=expand_path,
         help="A CSV file with an 'expression' column. The 'passing' and 'output' columns are "
         "added/updated in-place.",
     )
     validate_parser.add_argument(
         "-j",
         "--json",
+        type=expand_path,
         help="A JSON file with 'timelines' as its first top-level key. Components from "
         "HIERARCHY_TIMELINEs are extracted, validated, and saved as a report CSV.",
     )
     validate_parser.add_argument(
         "-d",
         "--directory",
+        type=expand_path,
         help="A directory to recursively scan for JSON files with HIERARCHY_TIMELINEs.",
     )
     validate_parser.add_argument(
         "-o",
         "--output",
+        type=expand_path,
         help="Output path for report files. A .csv/.tsv path is used as-is; a directory "
         "receives auto-named reports. Default for -j/-d: sibling .report.csv files.",
     )
@@ -76,16 +89,19 @@ def build_parser() -> argparse.ArgumentParser:
     convert_parser.add_argument(
         "-j",
         "--json",
+        type=expand_path,
         help="A TiLiA JSON file with 'timelines' as its first top-level key.",
     )
     convert_parser.add_argument(
         "-d",
         "--directory",
+        type=expand_path,
         help="A directory to recursively scan for TiLiA JSON files.",
     )
     convert_parser.add_argument(
         "-o",
         "--output",
+        type=expand_path,
         help="Output folder for the generated CSVs. Default: next to each JSON file.",
     )
     convert_parser.add_argument(

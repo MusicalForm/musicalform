@@ -19,6 +19,7 @@ from DHParser import RootNode
 
 # NOTE: lcma_standardParser.py lives alongside this file in the cli/ package.
 from musicalform.cli.lcma_standardParser import compile_src
+from musicalform.cli.main import expand_path
 
 # All domain objects come from the musicalform library.
 from musicalform.core import AnnotationLabel
@@ -373,28 +374,32 @@ def main(
 def parse_args():
     parser = argparse.ArgumentParser(description="Test an expression against the current grammar.")
     parser.add_argument("-e", "--expression", help="A string expressing a form label.")
-    parser.add_argument("-f", "--file", help="A text file containing a form label.")
+    parser.add_argument("-f", "--file", type=expand_path, help="A text file containing a form label.")
     parser.add_argument(
         "-c",
         "--csv",
+        type=expand_path,
         help="A CSV file containing at least the column 'expression'. The script will iterate over the expressions "
         "and (add and) update the columns 'passing' and 'output'. The CSV file will be modified and overwritten!",
     )
     parser.add_argument(
         "-j",
         "--json",
+        type=expand_path,
         help="A JSON file with 'timelines' as its first top-level key. Components from HIERARCHY_TIMELINEs "
         "are extracted, validated, and saved as a report CSV.",
     )
     parser.add_argument(
         "-d",
         "--directory",
+        type=expand_path,
         help="A directory to recursively scan for JSON files with HIERARCHY_TIMELINEs. "
         "Each valid file is processed like -j.",
     )
     parser.add_argument(
         "-o",
         "--output",
+        type=expand_path,
         help="Output path for report files. If a .csv/.tsv filepath, used as the output file. "
         "If a directory, reports are placed there with automatic names. "
         "Default for -j/-d: report CSV next to each JSON file. "
