@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.4.0](https://github.com/MusicalForm/musicalform/compare/v0.3.0...v0.4.0) (2026-10-14)
+
+
+### Features
+
+* **cli:** show help instead of an error when no input is given ([1823878](https://github.com/MusicalForm/musicalform/commit/18238784cee8864029032baf797ad1bb672afa9e))
+
+
+### Bug Fixes
+
+* **cli:** expand ~ in path arguments ([72f62b0](https://github.com/MusicalForm/musicalform/commit/72f62b0e496aa0a4876c9008f189b84faaa94c8a))
+* **deps:** exclude DHParser 1.9.8 to keep installs working ([81118af](https://github.com/MusicalForm/musicalform/commit/81118af0f6e0d5a71093a38f152f5ec37179a816))
+* render material operators in a canonical order ([e7b75d7](https://github.com/MusicalForm/musicalform/commit/e7b75d77e3c9a60045552a83741a79e9e9904042))
+* **tilia:** match timeline kinds regardless of spelling ([f61965f](https://github.com/MusicalForm/musicalform/commit/f61965ffd76237812d52c5414479813cf9c7fd85))
+
 ## [0.3.0](https://github.com/MusicalForm/musicalform/compare/v0.2.0...v0.3.0) (2026-04-27)
 
 
