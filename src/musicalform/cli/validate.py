@@ -262,7 +262,8 @@ def process_json_directory(
                 if verbose:
                     print(f"Skipping {json_file}: not a valid format or no HIERARCHY_TIMELINEs found.")
                 continue
-            df.insert(0, "source_file", str(json_file))
+            df.insert(0, "filename", json_file.name)
+            df["source_file"] = str(json_file)
             all_frames.append(df)
 
         if not all_frames:
@@ -270,6 +271,8 @@ def process_json_directory(
             return []
 
         combined_df = pd.concat(all_frames, ignore_index=True)
+        # frames may differ in columns, so move source_file back to the end after concatenating
+        combined_df = combined_df[[c for c in combined_df.columns if c != "source_file"] + ["source_file"]]
         output_path = Path(output)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         combined_df.to_csv(output_path, index=False)
