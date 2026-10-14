@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from pprint import pprint
 from typing import Optional, Tuple
@@ -407,6 +408,9 @@ def parse_args():
         "about skipped files when using -d.",
     )
     args = parser.parse_args()
+    if all(arg is None for arg in (args.expression, args.file, args.csv, args.json, args.directory)):
+        parser.print_help()
+        sys.exit(0)
     return args
 
 
