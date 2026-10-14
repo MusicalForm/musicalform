@@ -25,6 +25,7 @@ from musicalform.core import (
 )
 from musicalform.enums import (
     MAIN_TO_SUBTYPES,
+    MATERIAL_OPERATOR_ORDER,
     CertaintyName,
     FancyStrEnum,
     FunctionSpecificity,
@@ -48,6 +49,7 @@ __all__ = [
     "SubType",
     "MAIN_TO_SUBTYPES",
     "MaterialOperator",
+    "MATERIAL_OPERATOR_ORDER",
     "PlaceholderName",
     "CertaintyName",
     "ReferenceSentinel",
