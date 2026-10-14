@@ -4,11 +4,12 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
-from typing import List, Optional, Self, Set, Tuple
+from typing import List, Optional, Self, Tuple
 from warnings import warn
 
 from musicalform.enums import (
     MAIN_TO_SUBTYPES,
+    MATERIAL_OPERATOR_ORDER,
     CertaintyName,
     FunctionSpecificity,
     MainType,
@@ -230,7 +231,10 @@ class FormalType:
 @dataclass
 class SingleReference(References):
     reference: str | ReferenceSentinel
-    operators: Set[MaterialOperator] = field(default_factory=set)
+    operators: Tuple[MaterialOperator, ...] = ()
+
+    def __post_init__(self):
+        self.operators = _sort_material_operators(self.operators)
 
     @classmethod
     def from_parse(cls, parse: dict):
@@ -585,15 +589,21 @@ def _parse_type_name(type_name: str) -> Tuple[MainType, Optional[SubType]]:
     return MainType(type_name), None
 
 
-def _parse_material_operator_chars(operator_chars: list | str) -> Set[MaterialOperator]:
+def _sort_material_operators(operators) -> Tuple[MaterialOperator, ...]:
+    """Deduplicates operators and puts them in the canonical MATERIAL_OPERATOR_ORDER."""
+    return tuple(sorted(set(operators), key=MATERIAL_OPERATOR_ORDER.index))
+
+
+def _parse_material_operator_chars(operator_chars: list | str) -> Tuple[MaterialOperator, ...]:
     """For simplicity, the standard allows for any combination of the operators [°, &, +, ~, *, !, ^].
     However, each operator is taken into account only once and ** needs to be extracted before * (although both
-    should not appear at the same time in the first place).
+    should not appear at the same time in the first place). The result is in canonical order
+    (see MATERIAL_OPERATOR_ORDER).
     """
     import re
 
     if not operator_chars:
-        return set()
+        return ()
     if isinstance(operator_chars, str):
         operators_string = operator_chars
     else:
@@ -618,7 +628,7 @@ def _parse_material_operator_chars(operator_chars: list | str) -> Set[MaterialOp
     sorted_symbols = sorted(symbol_map.keys(), key=len, reverse=True)
     pattern = "|".join(re.escape(symbol) for symbol in sorted_symbols)
     matches = re.findall(pattern, operators_string)
-    return set(symbol_map[match] for match in matches)
+    return _sort_material_operators(symbol_map[match] for match in matches)
 
 
 def _parse_material_concatenation(concat_list: list) -> Tuple[SingleReference, ...]:

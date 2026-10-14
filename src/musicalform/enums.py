@@ -304,6 +304,27 @@ class MaterialOperator(FancyStrEnum):
         return symbol_map.get(self, self.name)
 
 
+# Canonical order in which operators are rendered: first the relation of the whole (repetition, transposition),
+# then which part is taken (partial), then additions (interpolation, extension), then surface changes, with the
+# unspecified catch-all (adaptation) last. Operators without a symbol follow alphabetically.
+MATERIAL_OPERATOR_ORDER: tuple[MaterialOperator, ...] = (
+    MaterialOperator.repetition,
+    MaterialOperator.transposition,
+    MaterialOperator.partial,
+    MaterialOperator.interpolation,
+    MaterialOperator.extension,
+    MaterialOperator.ornamentation,
+    MaterialOperator.combination,
+    MaterialOperator.concatenation,
+    MaterialOperator.adaptation,
+    MaterialOperator.augmentation,
+    MaterialOperator.diminution,
+    MaterialOperator.inversion,
+    MaterialOperator.retrograde,
+    MaterialOperator.variation,
+)
+
+
 class PlaceholderName(FancyStrEnum):
     repeat = auto()
 
