@@ -125,11 +125,12 @@ def iter_timeline_components(
         return
 
     media_metadata = data.get("media_metadata", {}) or {}
-    kind_filter = set(kinds) if kinds is not None else None
+    # Compare short forms so that e.g. 'HIERARCHY_TIMELINE' also matches 'Hierarchy'.
+    kind_filter = {kind_to_short(k) for k in kinds} if kinds is not None else None
 
     for tl in data.get("timelines", []) or []:
         kind = tl.get("kind")
-        if kind_filter is not None and kind not in kind_filter:
+        if kind_filter is not None and kind_to_short(kind or "") not in kind_filter:
             continue
         components = tl.get("components", []) or []
         if not components:
