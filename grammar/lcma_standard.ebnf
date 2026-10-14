@@ -11,10 +11,8 @@ Name                ::= [a-zA-Z0-9']+
 Form                ::= FunctionLabel ('|' TypeExp)? Certainty?
 Certainty           ::= '?'
 
-FunctionLabel       ::= FunctionExpr Connector
-                      | FunctionExpr (~ Combinator ~ FunctionExpr?)?
-Connector           ::= '/'
-Combinator          ::= '>'
+FunctionLabel       ::= FunctionExpr (~ Combinator ~ FunctionExpr?)?
+Combinator          ::= '/' | '>'
 
 FunctionExpr         ::= Function Shorthand?
 
