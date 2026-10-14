@@ -1,0 +1,118 @@
+/* LCMA Form Annotation Standard v0.1 */
+
+Label               ::= (Name ':')? ~ (FormLabel|PlaceholderLabel) (~ '-' ~ FormLabel)*
+
+FormLabel           ::= Form ~ MaterialBrackets?
+PlaceholderLabel    ::= Placeholder Shorthand? ~ MaterialBrackets?
+Placeholder         ::= "%"
+
+Name                ::= [a-zA-Z0-9']+
+
+Form                ::= FunctionLabel ('|' TypeExp)? Certainty?
+Certainty           ::= '?'
+
+FunctionLabel       ::= FunctionExpr Connector
+                      | FunctionExpr (~ Combinator ~ FunctionExpr?)?
+Connector           ::= '/'
+Combinator          ::= '>'
+
+FunctionExpr         ::= Function Shorthand?
+
+Function            ::= '"' FunctionName '"'
+                      | FunctionName
+
+FunctionName        ::= GenericFunction | SpecificFunction
+
+GenericFunction     ::= (Cardinality "_"?)? ~ Unit
+
+Cardinality         ::= ('1st' | '2nd' | '3rd' | '4th' | '5th' | '6th' | '7th' | '8th' | '9th')
+
+Unit                ::= 'unit' | 'x' | 'part' | 'section' | 'phrase' | 'sub-phrase' | 'idea'
+                      | 'work' | 'movement' | 'zone' | 'theme'
+                      | 'album' | 'song' | 'cycle' | 'group'
+
+SpecificFunction    ::= 'antecedent' | 'ant'
+                      | 'after-the-end' | 'ate'
+                      | 'basic idea' | 'bi'
+                      | 'beginning' | 'beg'
+                      | 'cadential idea' | 'cad'
+                      | 'compound basic idea' | 'cbi'
+                      | 'codetta' | 'cdta'
+                      | 'contrasting idea' | 'ci'
+                      | 'closing theme' | 'cls'
+                      | 'coda'
+                      | 'consequent' | 'cons'
+                      | 'continuation idea' | 'continuation' | 'conti' | 'cont'
+                      | 'development section' | 'dev'
+                      | 'end'
+                      | 'essential expositional closure' | 'eec'
+                      | 'essential sonata closure' | 'esc'
+                      | 'exposition' | 'exp'
+                      | 'fragmentation' | 'frag'
+                      | 'introduction' | 'intro'
+                      | 'lead-in' | 'lin'
+                      | 'middle' | 'mid'
+                      | 'model' | 'mod'
+                      | 'movement' | 'mvt'
+                      | 'postcadential' | 'pcad'
+                      | 'presentation' | 'pres'
+                      | 'primary theme zone' | 'primary theme' | 'ptz' | 'pt'
+                      | 'recapitulation' | 'recap'
+                      | 'ritornello' | 'rit'
+                      | 'retransition' | 'rtr'
+                      | 'secondary theme zone' | 'secondary theme' | 'stz' | 'st'
+                      | 'sequence' | 'seq'
+                      | 'transition' | 'tr'
+
+
+
+TypeExp             ::= '"' FormalType '"'
+                      | FormalType
+
+FormalType          ::= 'hybrid1' | 'hyb1'
+                      | 'hybrid2' | 'hyb2'
+                      | 'hybrid3' | 'hyb3'
+                      | 'hybrid4' | 'hyb4'
+                      | 'period' | 'pd'
+                      | 'repeated' '_'? ~ Unit
+                      | 'ritornello form' | 'ritornello'
+                      | 'rondo form' | 'rondo'
+                      | 'sentence' | 'sent'
+                      | 'sequence' | 'seq'
+                      | 'sonata form' | 'sonata'
+                      | 'unary form' | 'unary'
+                      | 'simple_binary.balanced' | 'simple_binary'
+                      | 'rounded_binary'
+                      | 'ternary.through_composed' | 'ternary.da_capo' | 'ternary'
+
+
+
+MaterialBrackets    ::= '[' MaterialPositions ']'
+
+MaterialPositions   ::= TargetOnly
+                      | MaterialRef ',' MaterialRef
+                      | SourceOnly
+                      | MaterialRef
+/* This is the highest level designating the "Material Brackets" as we call them.
+ * If FunctionLabel takes the form (FunctionExpr Combinator FunctionExpr), then there
+ * are three possibilities:
+ * 1) One MaterialRef followed by a comma to be attributed to the first FunctionExpr
+ * 2) One MaterialRef preceded by a comma to be attributed to the second FunctionExpr
+ * 3a) A single MaterialRef describing the entire segment
+ * 3b) The case where the single MaterialRef is a concatenation: then it needs to be
+ *     wrapped in brackets, resulting in double MaterialBrackets: [[Concatenation]]
+ */
+
+TargetOnly          ::= ',' MaterialRef
+SourceOnly          ::= MaterialRef ','
+
+MaterialRef         ::= '[' Concatenation ']'
+                      | '(' Concatenation ')'
+                      | Concatenation
+                      | Entry
+
+Concatenation       ::= Entry (',' Entry)+
+
+Shorthand           ::= MaterialOperators
+MaterialOperators   ::= [!*~^°+]+
+Entry               ::= ('"' Name '"' | Name) MaterialOperators?
