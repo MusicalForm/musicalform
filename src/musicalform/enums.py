@@ -91,6 +91,8 @@ class SpecificFunctionName(FancyStrEnum):
     after_the_end = auto()
     ate = after_the_end
     basic_idea = auto()
+    beginning = auto()
+    beg = beginning
     bi = basic_idea
     cadential_subphrase = auto()
     cad = cadential_subphrase
@@ -111,6 +113,7 @@ class SpecificFunctionName(FancyStrEnum):
     cont = continuation
     development_section = auto()
     dev = development_section
+    end = auto()
     essential_expositional_closure = auto()
     eec = essential_expositional_closure
     essential_sonata_closure = auto()
@@ -123,6 +126,8 @@ class SpecificFunctionName(FancyStrEnum):
     intro = introduction
     lead_in = auto()
     lin = lead_in
+    middle = auto()
+    mid = middle
     model = auto()
     mod = model
     movement = auto()
