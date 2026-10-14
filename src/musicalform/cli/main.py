@@ -8,6 +8,7 @@ Dispatches subcommands:
 from __future__ import annotations
 
 import argparse
+import sys
 
 from musicalform import __version__
 
@@ -31,6 +32,7 @@ def build_parser() -> argparse.ArgumentParser:
         help="Validate LCMA form-annotation labels against the current grammar.",
         description="Test expressions, files, CSVs, or JSON timeline files against the current grammar.",
     )
+    validate_parser.set_defaults(print_help=validate_parser.print_help)
     validate_parser.add_argument("-e", "--expression", help="A string expressing a form label.")
     validate_parser.add_argument("-f", "--file", help="A text file containing a form label.")
     validate_parser.add_argument(
@@ -70,6 +72,7 @@ def build_parser() -> argparse.ArgumentParser:
         description="Each JSON file is split into one CSV per timeline; multiple timelines "
         "of the same kind are numbered. Default columns match what TiLiA imports.",
     )
+    convert_parser.set_defaults(print_help=convert_parser.print_help)
     convert_parser.add_argument(
         "-j",
         "--json",
@@ -101,11 +104,18 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def run():
+def run(argv: list[str] | None = None):
     parser = build_parser()
-    args = parser.parse_args()
+    argv = sys.argv[1:] if argv is None else argv
+    if not argv:
+        parser.print_help()
+        return
+    args = parser.parse_args(argv)
 
     if args.subcommand == "validate":
+        if all(arg is None for arg in (args.expression, args.file, args.csv, args.json, args.directory)):
+            args.print_help()
+            return
         from musicalform.cli.validate import main as validate_main
 
         validate_main(
@@ -118,6 +128,9 @@ def run():
             verbose=args.verbose,
         )
     elif args.subcommand == "convert":
+        if args.json is None and args.directory is None:
+            args.print_help()
+            return
         from musicalform.cli.convert import main as convert_main
 
         convert_main(
