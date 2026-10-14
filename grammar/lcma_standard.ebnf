@@ -73,6 +73,7 @@ FormalType          ::= 'hybrid1' | 'hyb1'
                       | 'hybrid2' | 'hyb2'
                       | 'hybrid3' | 'hyb3'
                       | 'hybrid4' | 'hyb4'
+                      | 'model sequence' | 'modseq'
                       | 'period' | 'pd'
                       | 'repeated' '_'? ~ Unit
                       | 'ritornello form' | 'ritornello'
