@@ -105,8 +105,8 @@ The behaviour depends on `-o`:
    ```
 
 3. **`-o` with a `.csv` or `.tsv` filepath:** all expressions from all valid JSON files are
-   concatenated into a single DataFrame (with an additional `source_file` column) and validated
-   together.
+   concatenated into a single DataFrame and validated together. The first column, `filename`,
+   holds the name of each expression's JSON file, and the last column, `source_file`, its full path.
 
    ```bash
    python validate.py -d test_files/ -o all_expressions.csv
