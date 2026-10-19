@@ -110,9 +110,11 @@ SourceOnly          ::= MaterialRef ','
 MaterialRef         ::= '[' Concatenation ']'
                       | '(' Concatenation ')'
                       | Concatenation
+                      | Combination
                       | Entry
 
 Concatenation       ::= Entry (',' Entry)+
+Combination         ::= Entry ('&' Entry)+
 
 Shorthand           ::= MaterialRelations
 MaterialKeyword     ::= "$" ("adapt" | "aug" | "comb" | "conc" | "dim" | "ext" | "inv" | "orn" | "part" | "rep" | "retr" | "transp" | "var")

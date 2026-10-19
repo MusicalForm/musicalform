@@ -270,6 +270,7 @@ class MaterialReferences(References):
 
     references: Tuple[SingleReference, ...]
     unordered: bool = False  # if True, this is considered a non-repeating set
+    combined: bool = False  # if True, the references are combined, e.g. [B&A']
 
     @classmethod
     def from_parse(cls, parse: Optional[list], shorthand: Optional[SingleReference]) -> Optional[MaterialReferences]:
@@ -293,7 +294,8 @@ class MaterialReferences(References):
         return None
 
     def to_label(self, abbreviate: bool = True) -> str:
-        refs = "".join(ref.to_label(abbreviate=abbreviate) for ref in self.references)
+        separator = "&" if self.combined else ""
+        refs = separator.join(ref.to_label(abbreviate=abbreviate) for ref in self.references)
         if self.unordered:
             return f"({refs})"
         return refs
@@ -717,6 +719,11 @@ def _parse_material_ref(material_ref: dict | list) -> MaterialReferences:
             refs = _parse_material_concatenation(material_ref.pop("Concatenation"))
             check_for_unhandled_keys(material_ref)
             return MaterialReferences(references=refs)
+        elif "Combination" in material_ref:
+            # same shape as a concatenation, only with '&' instead of ','
+            refs = _parse_material_concatenation(material_ref.pop("Combination"))
+            check_for_unhandled_keys(material_ref)
+            return MaterialReferences(references=refs, combined=True)
     # list: bracket-wrapped or paren-wrapped
     unordered = False
     refs = ()
