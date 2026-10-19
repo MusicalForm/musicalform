@@ -104,6 +104,8 @@ class SpecificFunctionName(FancyStrEnum):
     cdta = codetta
     contrasting_idea = auto()
     ci = contrasting_idea
+    contrasting_middle = auto()
+    cm = contrasting_middle
     closing_theme = auto()
     cls = closing_theme
     coda = auto()
