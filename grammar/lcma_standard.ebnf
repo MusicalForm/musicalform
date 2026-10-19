@@ -25,7 +25,7 @@ GenericFunction     ::= (Cardinality "_"?)? ~ Unit
 
 Cardinality         ::= ('1st' | '2nd' | '3rd' | '4th' | '5th' | '6th' | '7th' | '8th' | '9th')
 
-Unit                ::= 'unit' | 'x' | 'part' | 'section' | 'phrase' | 'sub-phrase' | 'idea'
+Unit                ::= 'unit' | 'x' | 'part' | 'section' | 'sec' | 'phrase' | 'sub-phrase' | 'idea'
                       | 'work' | 'movement' | 'mvt' | 'zone' | 'theme'
                       | 'album' | 'song' | 'cycle' | 'group'
 

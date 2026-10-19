@@ -159,6 +159,7 @@ class UnitName(FancyStrEnum):
     x = unit
     part = auto()
     section = auto()
+    sec = section
     phrase = auto()
     sub_phrase = auto()
     idea = auto()
