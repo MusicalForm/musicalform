@@ -121,16 +121,29 @@ class TestCombinators:
         assert isinstance(function, FunctionalTransformation)
 
     def test_fusion_with_subsequent_label(self):
-        function = AnnotationLabel.from_string("cont/")[0].function
-        assert isinstance(function, SpecificFunction)
-        assert function.crossing_rightward
-        assert not function.transforming_rightward
+        form_label = AnnotationLabel.from_string("cont/")[0]
+        assert isinstance(form_label.function, SpecificFunction)
+        assert form_label.crossing_rightward
+        assert not form_label.transforming_rightward
 
     def test_transformation_into_subsequent_label(self):
-        function = AnnotationLabel.from_string("cont>")[0].function
-        assert isinstance(function, SpecificFunction)
-        assert function.transforming_rightward
-        assert not function.crossing_rightward
+        form_label = AnnotationLabel.from_string("cont>")[0]
+        assert isinstance(form_label.function, SpecificFunction)
+        assert form_label.transforming_rightward
+        assert not form_label.crossing_rightward
+
+    def test_combinator_after_type(self):
+        form_label = AnnotationLabel.from_string("conti|modseq /")[0]
+        assert isinstance(form_label.function, SpecificFunction)
+        assert form_label.type.main_type == MainType.model_sequence
+        assert form_label.crossing_rightward
+
+    def test_binary_function_with_subsequent_label(self):
+        form_label = AnnotationLabel.from_string("mod > seq|sent [a,b] /")[0]
+        assert isinstance(form_label.function, FunctionalTransformation)
+        assert form_label.type.main_type == MainType.sentence
+        assert form_label.crossing_rightward
+        assert not form_label.transforming_rightward
 
     @pytest.mark.parametrize(
         "label, expected",
@@ -140,6 +153,10 @@ class TestCombinators:
             ("cont>codetta", "cont > cdta"),
             ("cont/", "cont /"),
             ("cont>", "cont >"),
+            ("conti|modseq /", "cont|modseq /"),
+            ("conti|modseq >", "cont|modseq >"),
+            ("cont [a] >", "cont [a] >"),
+            ("mod > seq|sent [a,b] /", "mod > seq|sent [a,b] /"),
         ],
     )
     def test_rendering(self, label, expected):

@@ -95,16 +95,12 @@ class ReferencingLabel(ABC):  # noqa: B024
 class SingleFunction(FormalFunction):
     name: SpecificFunctionName | UnitName
     notional: bool = False  # "function"
-    crossing_rightward: bool = False  # function /  (fusion with the subsequent label)
-    transforming_rightward: bool = False  # function >  (transformation into the subsequent label)
 
     @classmethod
     def from_name(
         cls,
         name: SpecificFunctionName | UnitName,
         notional=False,
-        crossing_rightward=False,
-        transforming_rightward=False,
         cardinality=None,
     ) -> SpecificFunction | GenericFunction:
         """Dispatch to the appropriate subclass based on the type of the name.
@@ -113,20 +109,9 @@ class SingleFunction(FormalFunction):
         if isinstance(name, SpecificFunctionName):
             if cardinality is not None:
                 raise ValueError(f"Cardinality is not applicable to specific functions. Got {cardinality=}")
-            return SpecificFunction(
-                name=name,
-                notional=notional,
-                crossing_rightward=crossing_rightward,
-                transforming_rightward=transforming_rightward,
-            )
+            return SpecificFunction(name=name, notional=notional)
         elif isinstance(name, UnitName):
-            return GenericFunction(
-                name=name,
-                notional=notional,
-                crossing_rightward=crossing_rightward,
-                transforming_rightward=transforming_rightward,
-                cardinality=cardinality,
-            )
+            return GenericFunction(name=name, notional=notional, cardinality=cardinality)
         else:
             raise ValueError(f"Name must be either SpecificFunctionName or UnitName. Got {name!r} of type {type(name)}")
 
@@ -134,10 +119,6 @@ class SingleFunction(FormalFunction):
         label = self.name.alias if abbreviate else self.name.name
         if self.notional:
             label = f'"{label}"'
-        if self.crossing_rightward:
-            label = label + " /"
-        if self.transforming_rightward:
-            label = label + " >"
         return label
 
 
@@ -404,6 +385,8 @@ class FormLabel(ReferencingLabel):
     type: Optional[FormalType] = None
     material: Optional[MaterialReferences] = None
     certainty: CertaintyName = CertaintyName.default
+    crossing_rightward: bool = False  # label /  (fusion with the subsequent label)
+    transforming_rightward: bool = False  # label >  (transformation into the subsequent label)
 
     @classmethod
     def from_parse(cls, parse: dict):
@@ -413,6 +396,9 @@ class FormLabel(ReferencingLabel):
         formal_type = FormalType.from_parse(form_dict.pop("TypeExp", None))
         check_for_unhandled_keys(form_dict)
         material_references = parse.pop("MaterialBrackets", None)
+        combinator = parse.pop("Combinator", None)
+        if combinator not in (None, "/", ">"):
+            raise ValueError(f"Expected combinator '/' or '>' at the end of the form label, got {combinator!r}")
         check_for_unhandled_keys(parse)
         return super().from_parse(
             material_references=material_references,
@@ -422,6 +408,8 @@ class FormLabel(ReferencingLabel):
             function=function,
             type=formal_type,
             certainty=certainty,
+            crossing_rightward=combinator == "/",
+            transforming_rightward=combinator == ">",
         )
 
     def to_label(self, abbreviate: bool = True, omit_references: bool = False) -> str:
@@ -430,6 +418,10 @@ class FormLabel(ReferencingLabel):
             label += f"|{self.type.to_label(abbreviate=abbreviate)}"
         if not omit_references and self.material is not None:
             label += f" [{self.material.to_label(abbreviate=abbreviate)}]"
+        if self.crossing_rightward:
+            label += " /"
+        if self.transforming_rightward:
+            label += " >"
         return label
 
     def __str__(self):
@@ -565,7 +557,7 @@ def _parse_function_label(
     | Tuple[FunctionalTransformation | FunctionalFusion, TransformationalShorthand]
 ):
     if isinstance(parse, dict):
-        # a single function, possibly followed by a combinator, e.g. {'FunctionExpr': ..., 'Combinator': '/'}
+        # a single function, e.g. {'FunctionExpr': ...}; a trailing combinator belongs to the FormLabel
         parse = list(parse.items())
     functions, shorthands = [], []
     operator = None
@@ -588,14 +580,6 @@ def _parse_function_label(
         return functions[0], shorthands[0]
     if operator not in ("/", ">"):
         raise ValueError(f"Expected combinator '/' or '>' in function label, got {operator!r}")
-    if len(functions) == 1:
-        # combination with the subsequent label
-        function = functions[0]
-        if operator == "/":
-            function.crossing_rightward = True
-        else:
-            function.transforming_rightward = True
-        return function, shorthands[0]
     if len(functions) != 2:
         raise ValueError(f"Expected one or two functions in function label, got {len(functions)}")
     if operator == "/":
