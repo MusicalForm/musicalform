@@ -111,6 +111,8 @@ MaterialRef         ::= '[' Concatenation ']'
 
 Concatenation       ::= Entry (',' Entry)+
 
-Shorthand           ::= MaterialOperators
-MaterialOperators   ::= [!*~^°+]+
-Entry               ::= ('"' Name '"' | Name) MaterialOperators?
+Shorthand           ::= MaterialRelations
+MaterialKeyword     ::= "$" ("adapt" | "aug" | "comb" | "conc" | "dim" | "ext" | "inv" | "orn" | "part" | "rep" | "retr" | "transp" | "var")
+MaterialOperator    ::= [!*~^°+]
+MaterialRelations   ::= (MaterialKeyword | MaterialOperator)+
+Entry               ::= ('"' Name '"' | Name) MaterialRelations?
