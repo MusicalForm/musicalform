@@ -254,7 +254,7 @@ class lcma_standardGrammar(Grammar):
         parser = lcma_standard()
         syntax_tree = parser(source_code)
     """
-    source_hash__ = "0565a47449966afd620721d7f864b246"
+    source_hash__ = "05be4b3be211a862acdf7dc1e5d940dd"
     disposable__ = re.compile('$.')
     static_analysis_pending__ = []  # type: List[bool]
     parser_initialization__ = ["upon instantiation"]
@@ -284,13 +284,13 @@ class lcma_standardGrammar(Grammar):
     Function = Alternative(Series(Text('"'), FunctionName, Text('"')), FunctionName)
     FunctionExpr = Series(Function, Option(Shorthand))
     Combinator = Alternative(Text('/'), Text('>'))
-    FunctionLabel = Series(FunctionExpr, Option(Series(wsp__, Combinator, wsp__, Option(FunctionExpr))))
+    FunctionLabel = Series(FunctionExpr, Option(Series(wsp__, Combinator, wsp__, FunctionExpr)))
     Certainty = Text('?')
     Form = Series(FunctionLabel, Option(Series(Text('|'), TypeExp)), Option(Certainty))
     MaterialBrackets = Series(Text('['), MaterialPositions, Text(']'))
     Placeholder = Text("%")
     PlaceholderLabel = Series(Placeholder, Option(Shorthand), wsp__, Option(MaterialBrackets))
-    FormLabel = Series(Form, wsp__, Option(MaterialBrackets))
+    FormLabel = Series(Form, wsp__, Option(MaterialBrackets), wsp__, Option(Combinator))
     Label = Series(Option(Series(Name, Text(':'))), wsp__, Alternative(FormLabel, PlaceholderLabel), ZeroOrMore(Series(wsp__, Text('-'), wsp__, FormLabel)))
     root__ = Label
     

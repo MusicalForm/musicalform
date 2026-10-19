@@ -2,7 +2,7 @@
 
 Label               ::= (Name ':')? ~ (FormLabel|PlaceholderLabel) (~ '-' ~ FormLabel)*
 
-FormLabel           ::= Form ~ MaterialBrackets?
+FormLabel           ::= Form ~ MaterialBrackets? ~ Combinator?
 PlaceholderLabel    ::= Placeholder Shorthand? ~ MaterialBrackets?
 Placeholder         ::= "%"
 
@@ -11,7 +11,7 @@ Name                ::= [a-zA-Z0-9'_]+
 Form                ::= FunctionLabel ('|' TypeExp)? Certainty?
 Certainty           ::= '?'
 
-FunctionLabel       ::= FunctionExpr (~ Combinator ~ FunctionExpr?)?
+FunctionLabel       ::= FunctionExpr (~ Combinator ~ FunctionExpr)?
 Combinator          ::= '/' | '>'
 
 FunctionExpr         ::= Function Shorthand?
