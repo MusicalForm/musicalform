@@ -263,9 +263,13 @@ class SingleReference(References):
     def from_parse(cls, parse: dict):
         if parse is None:
             return None
-        name = parse.pop("Name", ReferenceSentinel.previous)
-        operator_chars = parse.pop("MaterialOperators", [])
-        operators = _parse_material_operator_chars(operator_chars)
+        if isinstance(parse, list):
+            # quoted name, e.g.: [[':Text', '"'], ['Name', 'a'], [':Text', '"'], ['MaterialRelations', {...}]]
+            parse = {key: value for key, value in parse if key not in (":Text", ":Whitespace")}
+        name = parse.pop("Name", None)
+        name = ReferenceSentinel.previous if name is None else _parse_name(name)
+        operators = _parse_material_relations(parse.pop("MaterialRelations", None))
+        check_for_unhandled_keys(parse)
         return cls(reference=name, operators=operators)
 
     def to_label(self, abbreviate: bool = True) -> str:
@@ -606,11 +610,10 @@ def _parse_name(name_list: str | list) -> str:
 
 
 def _parse_type_name(type_name: str) -> Tuple[MainType, Optional[SubType]]:
-    from musicalform.utils import concatenate_regex_results as _crr
 
     if isinstance(type_name, list):
         # e.g.: [[':Text', 'repeated'], [':Text', '_'], ['Unit', 'section']]
-        type_name = _crr(type_name)
+        type_name = concatenate_regex_results(type_name)
     elif isinstance(type_name, dict):
         type_name = "repeated_" + type_name["Unit"]
     elif "." in type_name:
@@ -645,7 +648,6 @@ def _parse_material_operator_chars(operator_chars: list | str) -> Tuple[Material
     if isinstance(operator_chars, str):
         operators_string = operator_chars
     else:
-        from musicalform.utils import concatenate_regex_results
 
         operators_string = concatenate_regex_results(operator_chars)
 
@@ -667,6 +669,38 @@ def _parse_material_operator_chars(operator_chars: list | str) -> Tuple[Material
     pattern = "|".join(re.escape(symbol) for symbol in sorted_symbols)
     matches = re.findall(pattern, operators_string)
     return _sort_material_operators(symbol_map[match] for match in matches)
+
+
+def _parse_material_relations(relations: Optional[dict | list]) -> Tuple[MaterialOperator, ...]:
+    """Parses a MaterialRelations node, i.e. any sequence of MaterialOperator symbols and MaterialKeywords.
+
+    Example inputs:
+        {'MaterialOperator': '*'}
+        {'MaterialKeyword': [[':Text', '$'], [':Text', 'var']]}
+        [['MaterialOperator', '*'], ['MaterialKeyword', [[':Text', '$'], [':Text', 'rep']]]]
+    """
+
+    if not relations:
+        return ()
+    if isinstance(relations, dict):
+        relations = list(relations.items())
+    operator_chars = ""
+    keyword_operators = []
+    for thing in relations:
+        match thing:
+            case ["MaterialOperator", str(char)]:
+                operator_chars += char
+            case ["MaterialKeyword", keyword]:
+                if isinstance(keyword, list):
+                    keyword = concatenate_regex_results(keyword)
+                keyword_operators.append(MaterialOperator(keyword.lstrip("$")))
+            case [":Text", _] | [":Whitespace", _]:
+                pass
+            case _:
+                warn(f"Encountered unknown thing in material relations: {thing!r}", UserWarning)
+    # symbols are concatenated first so that '**' is recognized as interpolation
+    operators = _parse_material_operator_chars(operator_chars) + tuple(keyword_operators)
+    return _sort_material_operators(operators)
 
 
 def _parse_material_concatenation(concat_list: list) -> Tuple[SingleReference, ...]:
