@@ -254,7 +254,7 @@ class lcma_standardGrammar(Grammar):
         parser = lcma_standard()
         syntax_tree = parser(source_code)
     """
-    source_hash__ = "9e75989fc84654710277351363dc7a2a"
+    source_hash__ = "1995e2fdbe74093f591fbe3ab46159ac"
     disposable__ = re.compile('$.')
     static_analysis_pending__ = []  # type: List[bool]
     parser_initialization__ = ["upon instantiation"]
@@ -263,7 +263,7 @@ class lcma_standardGrammar(Grammar):
     WHITESPACE__ = r'\s*'
     WSP_RE__ = mixin_comment(whitespace=WHITESPACE__, comment=COMMENT__)
     wsp__ = Whitespace(WSP_RE__)
-    Name = OneOrMore(RegExp('[a-zA-Z0-9\']'))
+    Name = OneOrMore(RegExp('[a-zA-Z0-9\'_]'))
     MaterialKeyword = Series(Text("$"), Alternative(Text("adapt"), Text("aug"), Text("comb"), Text("conc"), Text("dim"), Text("ext"), Text("inv"), Text("orn"), Text("part"), Text("rep"), Text("retr"), Text("transp"), Text("var")))
     MaterialOperator = RegExp('[!*~^\xb0+]')
     MaterialRelations = OneOrMore(Alternative(MaterialKeyword, MaterialOperator))

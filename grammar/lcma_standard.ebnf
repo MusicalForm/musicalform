@@ -6,7 +6,7 @@ FormLabel           ::= Form ~ MaterialBrackets?
 PlaceholderLabel    ::= Placeholder Shorthand? ~ MaterialBrackets?
 Placeholder         ::= "%"
 
-Name                ::= [a-zA-Z0-9']+
+Name                ::= [a-zA-Z0-9'_]+
 
 Form                ::= FunctionLabel ('|' TypeExp)? Certainty?
 Certainty           ::= '?'
