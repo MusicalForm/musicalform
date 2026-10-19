@@ -23,7 +23,8 @@ FunctionName        ::= GenericFunction | SpecificFunction
 
 GenericFunction     ::= (Cardinality "_"?)? ~ Unit
 
-Cardinality         ::= ('1st' | '2nd' | '3rd' | '4th' | '5th' | '6th' | '7th' | '8th' | '9th')
+/* 0th to 99th: teens always take 'th'; otherwise the last digit determines the suffix */
+Cardinality         ::= /(?:1[0-9]th|[2-9]?(?:1st|2nd|3rd|[04-9]th))/
 
 Unit                ::= 'unit' | 'x' | 'part' | 'section' | 'sec' | 'phrase' | 'sub-phrase' | 'idea'
                       | 'work' | 'movement' | 'mvt' | 'piece' | 'zone' | 'theme'

@@ -254,7 +254,7 @@ class lcma_standardGrammar(Grammar):
         parser = lcma_standard()
         syntax_tree = parser(source_code)
     """
-    source_hash__ = "1995e2fdbe74093f591fbe3ab46159ac"
+    source_hash__ = "470a5991ecb1b3951c32076afc278084"
     disposable__ = re.compile('$.')
     static_analysis_pending__ = []  # type: List[bool]
     parser_initialization__ = ["upon instantiation"]
@@ -278,7 +278,7 @@ class lcma_standardGrammar(Grammar):
     FormalType = Alternative(Text('hybrid1'), Text('hyb1'), Text('hybrid2'), Text('hyb2'), Text('hybrid3'), Text('hyb3'), Text('hybrid4'), Text('hyb4'), Text('model sequence'), Text('modseq'), Text('period'), Text('pd'), Series(Text('repeated'), Option(Text('_')), wsp__, Unit), Text('ritornello form'), Text('ritornello'), Text('rondo form'), Text('rondo'), Text('sentence'), Text('sent'), Text('sequence'), Text('seq'), Text('sonata form'), Text('sonata'), Text('unary form'), Text('unary'), Text('simple_binary.balanced'), Text('simple_binary'), Text('rounded_binary'), Text('ternary.through_composed'), Text('ternary.da_capo'), Text('ternary'))
     SpecificFunction = Alternative(Text('antecedent'), Text('ant'), Text('after-the-end'), Text('ate'), Text('basic idea'), Text('bi'), Text('beginning'), Text('beg'), Text('cadential idea'), Text('cadi'), Text('cadential phrase'), Text('cad'), Text('compound basic idea'), Text('cbi'), Text('codetta'), Text('cdta'), Text('contrasting idea'), Text('ci'), Text('contrasting middle'), Text('cm'), Text('closing theme'), Text('cls'), Text('coda'), Text('consequent'), Text('cons'), Text('continuation idea'), Text('continuation'), Text('conti'), Text('cont'), Text('development section'), Text('dev'), Text('end'), Text('essential expositional closure'), Text('eec'), Text('essential sonata closure'), Text('esc'), Text('exposition'), Text('exp'), Text('fragmentation'), Text('frag'), Text('introduction'), Text('intro'), Text('lead-in'), Text('lin'), Text('middle'), Text('mid'), Text('model'), Text('mod'), Text('postcadential'), Text('pcad'), Text('presentation'), Text('pres'), Text('primary theme zone'), Text('primary theme'), Text('ptz'), Text('pt'), Text('recapitulation'), Text('recap'), Text('ritornello'), Text('rit'), Text('retransition'), Text('rtr'), Text('secondary theme zone'), Text('secondary theme'), Text('stz'), Text('st'), Text('sequence'), Text('seq'), Text('transition'), Text('tr'))
     TypeExp = Alternative(Series(Text('"'), FormalType, Text('"')), FormalType)
-    Cardinality = Alternative(Text('1st'), Text('2nd'), Text('3rd'), Text('4th'), Text('5th'), Text('6th'), Text('7th'), Text('8th'), Text('9th'))
+    Cardinality = RegExp('(?:1[0-9]th|[2-9]?(?:1st|2nd|3rd|[04-9]th))')
     GenericFunction = Series(Option(Series(Cardinality, Option(Text("_")))), wsp__, Unit)
     FunctionName = Alternative(GenericFunction, SpecificFunction)
     Function = Alternative(Series(Text('"'), FunctionName, Text('"')), FunctionName)
