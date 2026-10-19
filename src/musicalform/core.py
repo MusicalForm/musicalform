@@ -167,7 +167,10 @@ class GenericFunction(SingleFunction):
         label = super().to_label(abbreviate=abbreviate)
         if self.cardinality is None:
             return label
-        card = {1: "st", 2: "nd", 3: "rd"}.get(self.cardinality, "th")
+        if 10 <= self.cardinality % 100 <= 19:
+            card = "th"
+        else:
+            card = {1: "st", 2: "nd", 3: "rd"}.get(self.cardinality % 10, "th")
         return f"{self.cardinality}{card} {label}"
 
 
@@ -510,8 +513,8 @@ def _parse_function_name(
         name = UnitName(generic_function.pop("Unit"))
         cardinality = generic_function.pop("Cardinality", None)
         if cardinality is not None:
-            # has the shape "1st", or "2nd", ... "9th"
-            cardinality = int(cardinality[0])
+            # has the shape "0th", "1st", "2nd", ... "99th"
+            cardinality = int(cardinality[:-2])
         check_for_unhandled_keys(generic_function)
         return name, cardinality
     else:
