@@ -170,6 +170,7 @@ class UnitName(FancyStrEnum):
     work = auto()
     movement = auto()
     mvt = movement
+    piece = auto()
     zone = auto()
     theme = auto()
     album = auto()
