@@ -161,3 +161,27 @@ class TestCombinators:
     )
     def test_rendering(self, label, expected):
         assert str(AnnotationLabel.from_string(label)) == expected
+
+
+class TestMaterialCombination:
+    def test_placeholder_with_combination(self):
+        material = AnnotationLabel.from_string("% [B&A']")[0].material
+        assert material.combined
+        assert [ref.reference for ref in material.references] == ["B", "A'"]
+
+    def test_combination_as_transformation_source(self):
+        material = AnnotationLabel.from_string("mod > seq [a&b, c]")[0].material
+        assert material.source_references.combined
+        assert not material.target_references.combined
+
+    @pytest.mark.parametrize(
+        "label, expected",
+        [
+            ("% [B&A']", "% [B&A']"),
+            ("%[B & A']", "% [B&A']"),
+            ("x [a&b*&c]", "x [a&b*&c]"),
+            ("mod > seq [a&b, c]", "mod > seq [a&b,c]"),
+        ],
+    )
+    def test_rendering(self, label, expected):
+        assert str(AnnotationLabel.from_string(label)) == expected
