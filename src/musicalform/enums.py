@@ -94,8 +94,10 @@ class SpecificFunctionName(FancyStrEnum):
     beginning = auto()
     beg = beginning
     bi = basic_idea
-    cadential_subphrase = auto()
-    cad = cadential_subphrase
+    cadential_idea = auto()
+    cadi = cadential_idea
+    cadential_phrase = auto()
+    cad = cadential_phrase
     compound_basic_idea = auto()
     cbi = compound_basic_idea
     codetta = auto()
