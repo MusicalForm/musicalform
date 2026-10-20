@@ -12,7 +12,7 @@ Label    ::= ( Name ':' )? ( FormLabel | PlaceholderLabel ) ( '-' FormLabel )*
 
 ```
 FormLabel
-         ::= Form MaterialBrackets?
+         ::= Form MaterialBrackets? Combinator?
 ```
 
 referenced by:
@@ -37,7 +37,7 @@ referenced by:
 ![Name](diagram/Name.png)
 
 ```
-Name     ::= [a-zA-Z0-9']+
+Name     ::= [a-zA-Z0-9'_]+
 ```
 
 referenced by:
@@ -50,7 +50,7 @@ referenced by:
 ![Form](diagram/Form.png)
 
 ```
-Form     ::= FunctionLabel ( '|' TypeExp )?
+Form     ::= FunctionLabel ( '|' TypeExp )? '?'?
 ```
 
 referenced by:
@@ -63,12 +63,27 @@ referenced by:
 
 ```
 FunctionLabel
-         ::= FunctionExpr ( '/' | '>' FunctionExpr? )?
+         ::= FunctionExpr ( Combinator FunctionExpr )?
 ```
 
 referenced by:
 
 * Form
+
+**Combinator:**
+
+![Combinator](diagram/Combinator.png)
+
+```
+Combinator
+         ::= '/'
+           | '>'
+```
+
+referenced by:
+
+* FormLabel
+* FunctionLabel
 
 **FunctionExpr:**
 
@@ -102,8 +117,8 @@ referenced by:
 
 ```
 FunctionName
-         ::= GenericFunction
-           | SpecificFunction
+         ::= SpecificFunction
+           | GenericFunction
 ```
 
 referenced by:
@@ -129,15 +144,11 @@ referenced by:
 
 ```
 Cardinality
-         ::= '1st'
+         ::= ( '1' [0-9] | [04-9] ) 'th'
+           | [2-9] ( '1st' | '2nd' | '3rd' | [04-9] 'th' )
+           | '1st'
            | '2nd'
            | '3rd'
-           | '4th'
-           | '5th'
-           | '6th'
-           | '7th'
-           | '8th'
-           | '9th'
 ```
 
 referenced by:
@@ -153,11 +164,14 @@ Unit     ::= 'unit'
            | 'x'
            | 'part'
            | 'section'
+           | 'sec'
            | 'phrase'
            | 'sub-phrase'
            | 'idea'
            | 'work'
            | 'movement'
+           | 'mvt'
+           | 'piece'
            | 'zone'
            | 'theme'
            | 'album'
@@ -181,30 +195,37 @@ SpecificFunction
            | 'ant'
            | 'after-the-end'
            | 'ate'
-           | 'basic idea'
+           | 'basic_idea'
            | 'bi'
-           | 'cadential idea'
+           | 'beginning'
+           | 'beg'
+           | 'cadential_idea'
+           | 'cadi'
+           | 'cadential_phrase'
            | 'cad'
-           | 'compound basic idea'
+           | 'compound_basic_idea'
            | 'cbi'
            | 'codetta'
            | 'cdta'
-           | 'contrasting idea'
+           | 'contrasting_idea'
            | 'ci'
-           | 'closing theme'
+           | 'contrasting_middle'
+           | 'cm'
+           | 'closing_theme'
            | 'cls'
            | 'coda'
            | 'consequent'
            | 'cons'
-           | 'continuation idea'
+           | 'continuation_idea'
            | 'continuation'
            | 'conti'
            | 'cont'
-           | 'development section'
+           | 'development_section'
            | 'dev'
-           | 'essential expositional closure'
+           | 'end'
+           | 'essential_expositional_closure'
            | 'eec'
-           | 'essential sonata closure'
+           | 'essential_sonata_closure'
            | 'esc'
            | 'exposition'
            | 'exp'
@@ -214,16 +235,16 @@ SpecificFunction
            | 'intro'
            | 'lead-in'
            | 'lin'
+           | 'middle'
+           | 'mid'
            | 'model'
            | 'mod'
-           | 'movement'
-           | 'mvt'
            | 'postcadential'
            | 'pcad'
            | 'presentation'
            | 'pres'
-           | 'primary theme zone'
-           | 'primary theme'
+           | 'primary_theme_zone'
+           | 'primary_theme'
            | 'ptz'
            | 'pt'
            | 'recapitulation'
@@ -232,8 +253,8 @@ SpecificFunction
            | 'rit'
            | 'retransition'
            | 'rtr'
-           | 'secondary theme zone'
-           | 'secondary theme'
+           | 'secondary_theme_zone'
+           | 'secondary_theme'
            | 'stz'
            | 'st'
            | 'sequence'
@@ -273,20 +294,22 @@ FormalType
            | 'hyb3'
            | 'hybrid4'
            | 'hyb4'
+           | 'model_sequence'
+           | 'modseq'
            | 'period'
            | 'pd'
            | 'repeated' '_'? Unit
-           | 'ritornello form'
+           | 'ritornello_form'
            | 'ritornello'
-           | 'rondo form'
+           | 'rondo_form'
            | 'rondo'
            | 'sentence'
            | 'sent'
            | 'sequence'
            | 'seq'
-           | 'sonata form'
+           | 'sonata_form'
            | 'sonata'
-           | 'unary form'
+           | 'unary_form'
            | 'unary'
            | 'simple_binary.balanced'
            | 'simple_binary'
@@ -364,6 +387,7 @@ MaterialRef
          ::= '[' Concatenation ']'
            | '(' Concatenation ')'
            | Concatenation
+           | Combination
            | Entry
 ```
 
@@ -386,13 +410,26 @@ referenced by:
 
 * MaterialRef
 
+**Combination:**
+
+![Combination](diagram/Combination.png)
+
+```
+Combination
+         ::= Entry ( '&' Entry )+
+```
+
+referenced by:
+
+* MaterialRef
+
 **Shorthand:**
 
 ![Shorthand](diagram/Shorthand.png)
 
 ```
 Shorthand
-         ::= MaterialOperators
+         ::= MaterialRelations
 ```
 
 referenced by:
@@ -400,13 +437,40 @@ referenced by:
 * FunctionExpr
 * PlaceholderLabel
 
-**MaterialOperators:**
+**MaterialKeyword:**
 
-![MaterialOperators](diagram/MaterialOperators.png)
+![MaterialKeyword](diagram/MaterialKeyword.png)
 
 ```
-MaterialOperators
-         ::= [!*~^°+]+
+MaterialKeyword
+         ::= '$' ( 'adapt' | 'aug' | 'comb' | 'conc' | 'dim' | 'ext' | 'inv' | 'orn'
+                  | 'part' | 'rep' | 'retr' | 'transp' | 'var' )
+```
+
+referenced by:
+
+* MaterialRelations
+
+**MaterialOperator:**
+
+![MaterialOperator](diagram/MaterialOperator.png)
+
+```
+MaterialOperator
+         ::= [!*~^°+]
+```
+
+referenced by:
+
+* MaterialRelations
+
+**MaterialRelations:**
+
+![MaterialRelations](diagram/MaterialRelations.png)
+
+```
+MaterialRelations
+         ::= ( MaterialKeyword | MaterialOperator )+
 ```
 
 referenced by:
@@ -419,15 +483,16 @@ referenced by:
 ![Entry](diagram/Entry.png)
 
 ```
-Entry    ::= ( '"' Name '"' | Name ) MaterialOperators?
+Entry    ::= ( '"' Name '"' | Name ) MaterialRelations?
 ```
 
 referenced by:
 
+* Combination
 * Concatenation
 * MaterialRef
 
-##
+## 
 ![rr-2.6](diagram/rr-2.6.png) <sup>generated by [RR - Railroad Diagram Generator][RR]</sup>
 
 [RR]: https://www.bottlecaps.de/rr/ui
