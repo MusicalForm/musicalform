@@ -181,9 +181,10 @@ python validate.py -d test_files/ -v
 
    Release Please only picks up `feat` and `fix` commits (and breaking changes) for releases;
    see [Workflow](../README.md#workflow).
-7. **Release:** Release Please opens (or updates) a release PR on `development` that bumps the
-   version in `pyproject.toml` and updates `CHANGELOG.md`. Merging it creates the tag and the
-   GitHub release. To also publish to PyPI, run `tox -e build` and `tox -e publish`
+7. **Release:** merge `development` into `main` (no squash merge). Release Please then opens (or
+   updates) a release PR against `main` that bumps the version in `pyproject.toml` and updates
+   `CHANGELOG.md`. Merging it creates the tag and the GitHub release; afterwards, merge `main`
+   back into `development`. To also publish to PyPI, run `tox -e build` and `tox -e publish`
    (see [Release Process](../README.md#release-process)).
 8. **Guidelines repository:** commit the new submodule pointer in the parent repository with
    `git add musicalform` and `git commit`.

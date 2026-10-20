@@ -96,11 +96,15 @@ All pull requests should target the **`development`** branch. Commits follow [co
 
 ### Release Process
 
-When commits are pushed to `development`, [Release Please](https://github.com/googleapis/release-please) automatically:
+To prepare a release, merge `development` into `main` (with a merge commit or fast-forward, not a
+squash merge, so that the individual commits end up in the changelog). When commits are pushed to
+`main`, [Release Please](https://github.com/googleapis/release-please) automatically:
 
 1. Analyzes conventional commit messages
-2. Creates a PR with bumped version in `pyproject.toml` and updated `CHANGELOG.md`
+2. Creates a PR against `main` with bumped version in `pyproject.toml` and updated `CHANGELOG.md`
 3. When merged, creates a GitHub Release
+
+After the release, merge `main` back into `development` so that it contains the version bump.
 
 To publish to PyPI after a release is created:
 

@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - development
+      - main
 
 permissions:
   contents: write
@@ -17,4 +17,4 @@ jobs:
       - uses: googleapis/release-please-action@v4
         with:
           release-type: python
-          target-branch: development
+          target-branch: main
