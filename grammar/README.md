@@ -142,6 +142,52 @@ python validate.py -d test_files/ -v
 
 ## For developers
 
+### TL;DR: updating the annotation standard
+
+1. **Grammar:** edit [lcma_standard.ebnf](lcma_standard.ebnf), e.g. add the new label (with its
+   abbreviation) to `SpecificFunction`, `Unit` or `FormalType`. Do not use `/regex/` literals
+   (see [Generating railroad diagrams](#generating-railroad-diagrams)).
+2. **Python code:** mirror the change in `src/musicalform/enums.py` by adding the member and its
+   alias to the matching enum (`SpecificFunctionName`, `UnitName`, `MainType`, …):
+
+   ```python
+   middle = auto()
+   mid = middle
+   ```
+
+   New syntax (operators, label structure) additionally needs handling in
+   `src/musicalform/core.py` and tests in `tests/test_core.py`.
+3. **Parser and diagrams:** regenerate both, then review the diff of
+   `src/musicalform/cli/lcma_standardParser.py`:
+
+   ```bash
+   python grammar/update_parser.py --rr path/to/rr.war
+   ```
+
+4. **Tests:** `pytest` (or `tox` for all Python versions).
+5. **Validation:** re-validate the annotation corpus from your local clone of `annotation_pilot`
+   and check how the report changed:
+
+   ```bash
+   musicalform validate -d ~/annotation_pilot/TiLiA -o grammar/validation_report.csv
+   ```
+
+6. **Commit** everything together with a [conventional commit](https://www.conventionalcommits.org/)
+   message and push to `development` (or open a PR against it):
+   - `feat(grammar): adds the term contrasting middle` for new labels or syntax
+   - `fix(grammar): …` for corrections
+   - `chore(validation): updates validation_report.csv for annotation_pilot@<commit>` for
+     report-only updates
+
+   Release Please only picks up `feat` and `fix` commits (and breaking changes) for releases;
+   see [Workflow](../README.md#workflow).
+7. **Release:** Release Please opens (or updates) a release PR on `development` that bumps the
+   version in `pyproject.toml` and updates `CHANGELOG.md`. Merging it creates the tag and the
+   GitHub release. To also publish to PyPI, run `tox -e build` and `tox -e publish`
+   (see [Release Process](../README.md#release-process)).
+8. **Guidelines repository:** commit the new submodule pointer in the parent repository with
+   `git add musicalform` and `git commit`.
+
 ### Pre-commit hooks
 
 Before making changes to the validator or other Python code, install the pre-commit hooks:
