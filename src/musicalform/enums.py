@@ -106,6 +106,8 @@ class SpecificFunctionName(FancyStrEnum):
     ci = contrasting_idea
     contrasting_middle = auto()
     cm = contrasting_middle
+    closing_passage = auto()
+    clp = closing_passage
     closing_theme = auto()
     cls = closing_theme
     coda = auto()
@@ -115,6 +117,8 @@ class SpecificFunctionName(FancyStrEnum):
     conti = continuation_idea
     continuation = continuation_idea
     cont = continuation
+    continuation_passage = auto()
+    cop = continuation_passage
     development_section = auto()
     dev = development_section
     end = auto()
