@@ -388,7 +388,6 @@ referenced by:
 MaterialRef
          ::= '[' Concatenation ']'
            | '(' Concatenation ')'
-           | Concatenation
            | Combination
            | Entry
 ```

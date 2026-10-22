@@ -294,11 +294,15 @@ class MaterialReferences(References):
         return None
 
     def to_label(self, abbreviate: bool = True) -> str:
-        separator = "&" if self.combined else ""
-        refs = separator.join(ref.to_label(abbreviate=abbreviate) for ref in self.references)
+        refs = [ref.to_label(abbreviate=abbreviate) for ref in self.references]
+        if self.combined:
+            return "&".join(refs)
+        if len(refs) == 1:
+            return refs[0]
+        # a concatenation always needs to be wrapped to be distinguishable from two positions
         if self.unordered:
-            return f"({refs})"
-        return refs
+            return f"({','.join(refs)})"
+        return f"[{','.join(refs)}]"
 
 
 @dataclass
@@ -715,10 +719,6 @@ def _parse_material_ref(material_ref: dict | list) -> MaterialReferences:
             ref = SingleReference.from_parse(entry)
             check_for_unhandled_keys(material_ref)
             return MaterialReferences(references=(ref,))
-        elif "Concatenation" in material_ref:
-            refs = _parse_material_concatenation(material_ref.pop("Concatenation"))
-            check_for_unhandled_keys(material_ref)
-            return MaterialReferences(references=refs)
         elif "Combination" in material_ref:
             # same shape as a concatenation, only with '&' instead of ','
             refs = _parse_material_concatenation(material_ref.pop("Combination"))
@@ -787,22 +787,8 @@ def _parse_transformational_positions(
         )
     if "MaterialRef" not in positions:
         return None
-    material_ref = positions["MaterialRef"]
-    # bare concatenation: reinterpret based on entry count
-    if isinstance(material_ref, dict) and "Concatenation" in material_ref:
-        entries = [thing for thing in material_ref["Concatenation"] if thing[0] == "Entry"]
-        if len(entries) == 2:
-            source_single = SingleReference.from_parse(entries[0][1])
-            target_single = SingleReference.from_parse(entries[1][1])
-            return TransformationalReferences(
-                source_references=MaterialReferences(references=(source_single,)),
-                target_references=MaterialReferences(references=(target_single,)),
-            )
-        raise ValueError(
-            f"Bare concatenation with {len(entries)} entries is not allowed " f"for a functional transformation."
-        )
-    # bracket/paren-wrapped or single entry: override to MaterialReferences
-    return _parse_material_ref(material_ref)
+    # single MaterialRef without positional comma: describes the entire segment
+    return _parse_material_ref(positions["MaterialRef"])
 
 
 MaterialPosition = Optional[SingleReference]

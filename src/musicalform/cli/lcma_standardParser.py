@@ -254,7 +254,7 @@ class lcma_standardGrammar(Grammar):
         parser = lcma_standard()
         syntax_tree = parser(source_code)
     """
-    source_hash__ = "e293098e82d7fc6e1d0797453612cfce"
+    source_hash__ = "d7ddcf4f03c53a8ae76c964343883e94"
     disposable__ = re.compile('$.')
     static_analysis_pending__ = []  # type: List[bool]
     parser_initialization__ = ["upon instantiation"]
@@ -271,7 +271,7 @@ class lcma_standardGrammar(Grammar):
     Entry = Series(Alternative(Series(Text('"'), Name, Text('"')), Name), Option(MaterialRelations))
     Combination = Series(Entry, OneOrMore(Series(Text('&'), Entry)))
     Concatenation = Series(Entry, OneOrMore(Series(Text(','), Entry)))
-    MaterialRef = Alternative(Series(Text('['), Concatenation, Text(']')), Series(Text('('), Concatenation, Text(')')), Concatenation, Combination, Entry)
+    MaterialRef = Alternative(Series(Text('['), Concatenation, Text(']')), Series(Text('('), Concatenation, Text(')')), Combination, Entry)
     SourceOnly = Series(MaterialRef, Text(','))
     TargetOnly = Series(Text(','), MaterialRef)
     MaterialPositions = Alternative(TargetOnly, Series(MaterialRef, Text(','), MaterialRef), SourceOnly, MaterialRef)

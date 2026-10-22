@@ -102,9 +102,13 @@ MaterialPositions   ::= TargetOnly
  * are three possibilities:
  * 1) One MaterialRef followed by a comma to be attributed to the first FunctionExpr
  * 2) One MaterialRef preceded by a comma to be attributed to the second FunctionExpr
- * 3a) A single MaterialRef describing the entire segment
- * 3b) The case where the single MaterialRef is a concatenation: then it needs to be
- *     wrapped in brackets, resulting in double MaterialBrackets: [[Concatenation]]
+ * 3) Two MaterialRefs separated by a comma, attributed to the first and second FunctionExpr
+ * 4) A single MaterialRef describing the entire segment
+ * A single function takes only a single MaterialRef (4).
+ *
+ * The comma separating two positions would be indistinguishable from the comma within a
+ * concatenation, which is why a Concatenation always needs to be wrapped, resulting in
+ * double brackets: [[a,b]] (ordered) or [(a,b)] (unordered), even for a single function.
  */
 
 TargetOnly          ::= ',' MaterialRef
@@ -112,7 +116,6 @@ SourceOnly          ::= MaterialRef ','
 
 MaterialRef         ::= '[' Concatenation ']'
                       | '(' Concatenation ')'
-                      | Concatenation
                       | Combination
                       | Entry
 

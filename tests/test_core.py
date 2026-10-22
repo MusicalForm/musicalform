@@ -185,3 +185,41 @@ class TestMaterialCombination:
     )
     def test_rendering(self, label, expected):
         assert str(AnnotationLabel.from_string(label)) == expected
+
+
+class TestMaterialPositions:
+    def test_two_entries_are_source_and_target(self):
+        material = AnnotationLabel.from_string("cont / cad [a,b]")[0].material
+        assert [ref.reference for ref in material.source_references.references] == ["a"]
+        assert [ref.reference for ref in material.target_references.references] == ["b"]
+
+    @pytest.mark.parametrize("label, unordered", [("cont [[a,b]]", False), ("cont [(a,b)]", True)])
+    def test_wrapped_concatenation_for_single_function(self, label, unordered):
+        material = AnnotationLabel.from_string(label)[0].material
+        assert [ref.reference for ref in material.references] == ["a", "b"]
+        assert material.unordered == unordered
+
+    def test_bare_concatenation_for_single_function_fails(self):
+        with pytest.raises(ValueError, match="Two material positions"):
+            AnnotationLabel.from_string("cont [a,b]")
+
+    @pytest.mark.parametrize(
+        "label", ["cont / cad [a,b,c]", "cont / cad [a,b,(c,d)]", "cont / cad [a,b,]", "cont / cad [,a,b]"]
+    )
+    def test_bare_concatenation_in_position_fails(self, label):
+        with pytest.raises(ValueError):
+            AnnotationLabel.from_string(label)
+
+    @pytest.mark.parametrize(
+        "label, expected",
+        [
+            ("cont [[a, b]]", "cont [[a,b]]"),
+            ("cont [(a,b)]", "cont [(a,b)]"),
+            ("cont/cad [a, b]", "cont / cad [a,b]"),
+            ("cont/cad [[a,b]]", "cont / cad [[a,b]]"),
+            ("cont/cad [(a,b),c]", "cont / cad [(a,b),c]"),
+            ("cont/cad [a,[b,c]]", "cont / cad [a,[b,c]]"),
+        ],
+    )
+    def test_rendering(self, label, expected):
+        assert str(AnnotationLabel.from_string(label)) == expected
