@@ -253,6 +253,8 @@ SpecificFunction
            | 'rit'
            | 'retransition'
            | 'rtr'
+           | 'standing_on_the_dominant'
+           | 'sod'
            | 'secondary_theme_zone'
            | 'secondary_theme'
            | 'stz'

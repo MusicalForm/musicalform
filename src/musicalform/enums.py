@@ -154,6 +154,8 @@ class SpecificFunctionName(FancyStrEnum):
     st = secondary_theme
     sequence = auto()
     seq = sequence
+    standing_on_the_dominant = auto()
+    sod = standing_on_the_dominant
     transition = auto()
     tr = transition
 
